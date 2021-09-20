@@ -1,0 +1,8 @@
+Hello world
+/root/.cache/torch/mmf/data/datasets/textvqa/defaults/features/features.tar.gz ] # Save feature extraction
+
+Script convert OCR json of inforgrahics to format OCR suitable 
+How to extract OCR token ? What script  
+
+How to extract object in image ?
+How to extract question as input ? 

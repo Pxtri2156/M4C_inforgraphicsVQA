@@ -1,0 +1,27 @@
+--- evaluate on TextVQA --- 
+CUDA_VISIBLE_DEVICES=2 mmf_run dataset=textvqa \
+   model=m4c \
+   config=projects/m4c/configs/textvqa/defaults.yaml \
+   env.save_dir=./save/m4c \
+   run_type=va \
+   checkpoint.resume_zoo=m4c.textvqa.with_stvqa
+------------------------------------
+
+------
+Add dataset 
+
++ Build datasetbuilder and dataset class at mmf/mmf/datasets/builders 
++ Build configuration dataset at mmf/mmf/configs/datasets
+
+---------------
+SET environment variable 
+mmf_user_dir = "/mlcv/WorkingSpace/NCKH/tiennv/vqa_thesis/docvqa/libs/mmf/env_variable/user"
+mmf_cache_dir = "/mlcv/WorkingSpace/NCKH/tiennv/vqa_thesis/docvqa/libs/mmf/env_variable/cache"
+mmf_data_dir = "/mlcv/WorkingSpace/NCKH/tiennv/vqa_thesis/docvqa/libs/mmf/env_variable/data"
+mmf_log_dir = "/mlcv/WorkingSpace/NCKH/tiennv/vqa_thesis/docvqa/libs/mmf/env_variable/log"
+mmf_save_dir = "/mlcv/WorkingSpace/NCKH/tiennv/vqa_thesis/docvqa/libs/mmf/env_variable/save"
+mmf_tensorboard_dir = "/mlcv/WorkingSpace/NCKH/tiennv/vqa_thesis/docvqa/libs/mmf/env_variable/tensorboard"
+mmf_wandb_log_dir = "/mlcv/WorkingSpace/NCKH/tiennv/vqa_thesis/docvqa/libs/mmf/env_variable/wandb_log"
+
+
+
