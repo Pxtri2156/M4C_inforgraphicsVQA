@@ -34,4 +34,6 @@ env_variable
 cmd_run
 detectron_model_x152.pth
 visualizes
-
+extracted_ocr
+models_ocr
+lmdb

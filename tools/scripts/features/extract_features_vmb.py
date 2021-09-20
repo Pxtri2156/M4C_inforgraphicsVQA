@@ -68,7 +68,6 @@ class FeatureExtractor:
             download(model_url, ".", self.args.model_file)
             download(config_url, ".", self.args.config_file)
 
-    def get_parser(self):
         parser = argparse.ArgumentParser()
         parser.add_argument(
             "--model_name", default="X-152", type=str, help="Model to use for detection"
@@ -98,7 +97,8 @@ class FeatureExtractor:
         )
         parser.add_argument("--image_dir", type=str, help="Image directory or file")
         parser.add_argument(
-            "--feature_name",
+            "--fea    def get_parser(self):
+ture_name",
             type=str,
             help="The name of the feature to extract",
             default="fc6",

@@ -48,6 +48,7 @@ class LMDBConversion:
 
         with env.begin(write=True) as txn:
             for infile in tqdm.tqdm(features):
+                # print("infile: ", infile)
                 reader = np.load(infile, allow_pickle=True)
                 item = {}
                 split = os.path.relpath(infile, self.args.features_folder).split(

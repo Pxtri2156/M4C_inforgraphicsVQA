@@ -1,7 +1,8 @@
 import os
 import numpy as np
 
-info_path = "/mlcv/WorkingSpace/NCKH/tiennv/vqa_thesis/docvqa/libs/mmf/extracted_output/10022_info.npy"
+
+info_path = "/mlcv/WorkingSpace/NCKH/tiennv/vqa_thesis/docvqa/libs/mmf/extracted_output/10030_info.npy"
 path = "/mlcv/WorkingSpace/NCKH/tiennv/vqa_thesis/docvqa/libs/mmf/extracted_output/10022.npy"
 # output_screen_path = "/mlcv/WorkingSpace/NCKH/tiennv/vqa_thesis/docvqa/libs/mmf/output_screen/annotation_textvqa.txt"
 
