@@ -1,0 +1,16 @@
+Pretrained Faster-RCNN train on Visual Genome dataset is VG
+
+Detector VG applied trong baseline tác giả chưa thực sự tốt.
++ Số lượng bbox trung bình mỗi ảnh: 7.4. 
++ Phần trăm số ảnh có obj <2 là 23%%
+
+Tập Visual Genome cho ảnh ngoài đời sống, ảnh thực tế
+Tập Inforgraphcis là cho ảnh visual, ảnh được tạo từ máy tính 
+
+Khác nhau về: Loại object, màu sắc, layout của object 
+
+
+Tập từ điển tác giả sự dụng lọc từ train split. 
+
+Số lượng object: 
++ Sử dụng nguyên bức ảnh là object cho kết quả tốt nhất
