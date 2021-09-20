@@ -1,1 +1,0 @@
-# M4C_inforgraphicsVQA
