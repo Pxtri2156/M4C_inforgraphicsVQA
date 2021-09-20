@@ -14,3 +14,6 @@ Tập từ điển tác giả sự dụng lọc từ train split.
 
 Số lượng object: 
 + Sử dụng nguyên bức ảnh là object cho kết quả tốt nhất
+
+
+What are 100 object of output?
