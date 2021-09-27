@@ -4,17 +4,17 @@ model_config:
     - type: m4c_decoding_bce_with_mask
 
 dataset_config:
-  textvqa:
+  inforgraphicvqa:
     zoo_requirements:
-    - textvqa.defaults
-    - textvqa.ocr_en
+    - inforgraphicvqa.defaults
+    - inforgraphicvqa.ocr_en
     features:
       train:
-      - textvqa/defaults/features/open_images/detectron.lmdb,textvqa/ocr_en/features/ocr_en_frcn_features.lmdb
+      - inforgraphicvqa/defaults/features,inforgraphicvqa/ocr_en/features
       val:
-      - textvqa/defaults/features/open_images/detectron.lmdb,textvqa/ocr_en/features/ocr_en_frcn_features.lmdb
+      - inforgraphicvqa/defaults/features,inforgraphicvqa/ocr_en/features
       test:
-      - textvqa/defaults/features/open_images/detectron.lmdb,textvqa/ocr_en/features/ocr_en_frcn_features.lmdb
+      - inforgraphicvqa/defaults/features,inforgraphicvqa/ocr_en/features
     processors:
       text_processor:
         type: bert_tokenizer
@@ -36,7 +36,9 @@ dataset_config:
             params: {}
           max_length: 50
           max_copy_steps: 12
-          num_answers: 10
+          # num_answers: 10 # max number ans of TextVQA
+          num_answers: 8 # max number answer # train set
+          # num_answers: 12 # max number answer # valid set
       copy_processor:
         type: copy
         params:

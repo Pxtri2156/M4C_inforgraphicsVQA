@@ -10,16 +10,18 @@ import cv2
 import numpy as np
 import torch
 import tqdm
+sys.path.append("./")  # NoQA
+# from maskrcnn_benchmark.config import cfg
+# from maskrcnn_benchmark.layers import nms
+# from maskrcnn_benchmark.modeling.detector import build_detection_model
+# from maskrcnn_benchmark.structures.image_list import to_image_list
+# from maskrcnn_benchmark.utils.model_serialization import load_state_dict
 from maskrcnn_benchmark.config import cfg
 from maskrcnn_benchmark.layers import nms
 from maskrcnn_benchmark.modeling.detector import build_detection_model
 from maskrcnn_benchmark.structures.image_list import to_image_list
 from maskrcnn_benchmark.utils.model_serialization import load_state_dict
 from PIL import Image
-
-
-sys.path.append("/private/home/ronghanghu/workspace/vqa-maskrcnn-benchmark")  # NoQA
-
 
 def load_detection_model(yaml_file, yaml_ckpt):
     cfg.merge_from_file(yaml_file)
@@ -160,13 +162,15 @@ def main():
     IMDB_FILE = args.imdb_file
     IMAGE_DIR = args.image_dir
     SAVE_DIR = args.save_dir
-
+    print("Lmdb file: ", IMDB_FILE)
     imdb = np.load(IMDB_FILE, allow_pickle=True)[1:]
     # keep only one entry per image_id
     image_id2info = {info["image_id"]: info for info in imdb}
     imdb = list(image_id2info[k] for k in sorted(image_id2info))
-
+    print("Before")
     detection_model = load_detection_model(DETECTION_YAML, DETECTION_CKPT)
+    print("After")
+
     print("Faster R-CNN OCR features")
     print("\textracting from", IMDB_FILE)
     print("\tsaving to", SAVE_DIR)
@@ -179,7 +183,8 @@ def main():
         w = info["image_width"]
         h = info["image_height"]
         ocr_normalized_boxes = np.array(info["ocr_normalized_boxes"])
-        ocr_boxes = ocr_normalized_boxes.reshape(-1, 4) * [w, h, w, h]
+        ocr_boxes = ocr_normalized_boxes.reshape(-1, 4) * [w, h, w, h] 
+        # print('ocr_boxes', ocr_boxes)
         ocr_tokens = info["ocr_tokens"]
         if len(ocr_boxes) > 0:
             extracted_feat, _ = extract_features(

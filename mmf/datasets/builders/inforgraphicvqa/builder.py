@@ -3,7 +3,6 @@ from mmf.common.registry import registry
 from mmf.datasets.builders.inforgraphicvqa.dataset import InforgraphicVQADataset
 from mmf.datasets.mmf_dataset_builder import MMFDatasetBuilder
 
-
 @registry.register_builder("inforgraphicvqa")
 class InforgraphicVQABuilder(MMFDatasetBuilder):
     def __init__(

@@ -2,17 +2,29 @@ import os
 import numpy as np
 import random
 import argparse
+import json
 
 def check_info_all(annotations):
     print("Element 0: ", annotations[0])
     print("Keys of 0 -> end: ", annotations[1].keys())
-    print("The whole of annotations: ", annotations)
+    print("The whole of annotations: ", annotations )
+    # for annotation in annotations:
+    #     print(type(annotation))
+    #     print(json.dumps(annotation, indent=4))
 
 def check_info_element(annotations):
     random_annotation = random.choice(annotations)
     print('keys: ', random_annotation.keys())
+    print("Num key: ", len(random_annotation.keys()))
     for key in random_annotation.keys():
-        print("{}: {}".format(key, random_annotation[key]))
+
+        if key != "ocr_info":
+            print("{}: {}".format(key, random_annotation[key]))
+        else:
+            print("ocr_info")
+            for e in random_annotation[key]:
+                print("\t", e)
+
 
 def check_question_equal_images(annotations):
     question_id = []
@@ -49,6 +61,49 @@ def show_all_questions(annotations):
     for annotation in annotations[1:]:
         print(annotation["question_id"])
 
+def show_all_ocr_tokens(annotations):
+    for annotation in annotations[1:]:
+        print(annotation["ocr_tokens"])
+
+def show_all_ocr_tokens(annotations):
+    for annotation in annotations[1:]:
+        print(annotation["ocr_tokens"])
+
+def find_img(annotations, img_name):
+    for annotation in annotations[1:]:
+        if annotation["image_name"]==img_name:
+            print("Yes")
+            return 1
+    print("NO")
+
+def find_num_max_answer(annotations):
+    max_num = 0
+    for annotation in annotations[1:]:
+        if len(annotation["answers"]) > max_num:
+            max_num = len(annotation["answers"])
+    return max_num
+
+def count_number_answer(annotations):
+    for annotation in annotations[1:]:
+        print(len(annotation["answers"]))
+
+def show_all_answers(annotations):
+    for annotation in annotations[1:]:
+        print(annotation["answers"])
+
+def check_number_answer(annotations, number_answer):
+    for annotation in annotations[1:]:
+        if len(annotation["answers"]) != number_answer:
+            print(len(annotation["answers"]))
+            print(annotation["answers"])
+
+def sumarize_number_answer(annotations):
+    sum = []
+    for annotation in annotations[1:]:
+        sum.append(len(annotation["answers"]))
+    sum = set(sum)
+    return sum
+
 def main(args):
 
     annotations = np.load(args.annot, allow_pickle=True) 
@@ -74,6 +129,30 @@ def main(args):
     elif args.option == 5:
         print("Show all question")
         show_all_questions(annotations)
+    elif args.option == 6:
+        print("Show all ocr tokens")
+        show_all_ocr_tokens(annotations)
+    elif args.option == 7:
+        print("Find image")
+        img_name="20467.jpeg"
+        find_img(annotations, img_name)
+    elif args.option == 8 :
+        max_num_ans = find_num_max_answer(annotations)
+        print("Max number answer: ", max_num_ans)
+    elif args.option == 9:
+        print("Show number answers")
+        count_number_answer(annotations)
+    elif args.option == 10:
+        print("Show all answers")
+        show_all_answers(annotations)
+    elif args.option == 11:
+        print("Check number answer")
+        num_ans = 10
+        check_number_answer(annotations, num_ans)
+    elif args.option == 12:
+        print("number answer")
+        lst = sumarize_number_answer(annotations)
+        print(lst)
     else:
         print("Please choose suitable option")
 
@@ -94,7 +173,9 @@ def get_parser():
         + "1: show info random element"
         + "2: check question equals image" 
         + "3: find image have one more question"
-        + "4: show all question", 
+        + "4: Show required question"
+        + "5: show all question"
+        + "6: Show all ocr tokens", 
     )
     return parser.parse_args()
 
@@ -102,10 +183,22 @@ if __name__ == "__main__":
     args = get_parser()
     main(args)
 
-
-
 '''
 python utils/analysis_annotation_textvqa.py \
-    --annot="env_variable/data/datasets/textvqa/defaults/annotations/imdb_train_ocr_en.npy" \
+    --annot="env_variable/data/datasets/textvqa/defaults/annotations/imdb_test_ocr_en.npy" \
+    --option=1
+
+python utils/analysis_annotation_textvqa.py \
+    --annot="/mlcv/WorkingSpace/NCKH/tiennv/vqa_thesis/docvqa/libs/mmf/new_annotations/lmdb_val_en.npy" \
+    --option=1
+
+
+
+python utils/analysis_annotation_textvqa.py \
+    --annot="env_variable/data/datasets/inforgraphicvqa/defaults/annotations/vqa_train_en.npy" \
     --option=0
+
+python utils/analysis_annotation_textvqa.py \
+--annot="my_features/annotations/train/lmdb_val_en_0.0.npy" \
+--option=0
 '''

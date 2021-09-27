@@ -1421,6 +1421,8 @@ class CopyProcessor(BaseProcessor):
 
     def __call__(self, item):
         blob = item["blob"]
+        # print('blob: ', blob)
+        blob = np.array(blob)
         final_blob = np.zeros((self.max_length,) + blob.shape[1:], blob.dtype)
         final_blob[: len(blob)] = blob[: len(final_blob)]
 
@@ -1540,6 +1542,8 @@ class M4CAnswerProcessor(BaseProcessor):
             }
 
         answers = [self.answer_preprocessor({"text": a})["text"] for a in answers]
+        # print("answers: ", answers)
+        # print('num answers: ', self.num_answers)
         assert len(answers) == self.num_answers
 
         # Step 1: calculate the soft score of ground-truth answers

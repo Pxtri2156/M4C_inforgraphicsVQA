@@ -40,7 +40,7 @@ class LMDBConversion:
         all_features = glob.glob(
             os.path.join(self.args.features_folder, "**", "*.npy"), recursive=True
         )
-
+        
         features = []
         for feature in all_features:
             if not feature.endswith("_info.npy"):

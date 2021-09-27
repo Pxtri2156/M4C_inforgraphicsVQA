@@ -15,8 +15,10 @@ class InforgraphicVQADataset(MMFDataset):
 
     def preprocess_sample_info(self, sample_info):
         path = self._get_path_based_on_index(self.config, "annotations", self._index)
+        # print("anotation path: ", path)
         # NOTE, TODO: Code duplication w.r.t to STVQA, revisit
         # during dataset refactor to support variable dataset classes
+        # print("feature path: ", sample_info["feature_path"])
         if "stvqa" in path:
             feature_path = sample_info["feature_path"]
             append = "train"
@@ -29,10 +31,20 @@ class InforgraphicVQADataset(MMFDataset):
 
             sample_info["feature_path"] = feature_path
             return sample_info
+        elif 'inforgraphicvqa' in path:
+            # print("{}".format("="*200))
+            sample_info['feature_path'] = sample_info['feature_path'].split('/')[-1].replace("_info.npy", '.npy')
+            # print('feature path: ', sample_info["feature_path"])
+            # tri
         # COCO Annotation DBs have corrext feature_path
         elif "COCO" not in sample_info["feature_path"]:
+            # print("sample info: ", sample_info.keys())
+            # sample_info["feature_path"] = sample_info["image_path"].replace(
+            #     ".jpg", ".npy"
+            # )
+            # lklk
             sample_info["feature_path"] = sample_info["image_path"].replace(
-                ".jpg", ".npy"
+                ".jpeg", ".npy"
             )
         return sample_info
 

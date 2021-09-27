@@ -1,4 +1,3 @@
-
 # Copyright (c) Facebook, Inc. and its affiliates.
 
 # Requires vqa-maskrcnn-benchmark (https://gitlab.com/vedanuj/vqa-maskrcnn-benchmark)
@@ -67,7 +66,7 @@ class FeatureExtractor:
             print("Downloading model and configuration")
             download(model_url, ".", self.args.model_file)
             download(config_url, ".", self.args.config_file)
-
+    def get_parser(self):
         parser = argparse.ArgumentParser()
         parser.add_argument(
             "--model_name", default="X-152", type=str, help="Model to use for detection"
@@ -97,8 +96,7 @@ class FeatureExtractor:
         )
         parser.add_argument("--image_dir", type=str, help="Image directory or file")
         parser.add_argument(
-            "--fea    def get_parser(self):
-ture_name",
+            "--feature_name",
             type=str,
             help="The name of the feature to extract",
             default="fc6",
@@ -267,11 +265,11 @@ ture_name",
 
     def extract_features(self):
         image_dir = self.args.image_dir
+        print("image dir: ", image_dir)
         if os.path.isfile(image_dir):
             features, infos = self.get_detectron_features([image_dir])
             self._save_feature(image_dir, features[0], infos[0])
         else:
-
             files = get_image_files(
                 self.args.image_dir,
                 exclude_list=self.args.exclude_list,

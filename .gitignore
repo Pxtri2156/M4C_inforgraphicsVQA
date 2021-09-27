@@ -29,11 +29,14 @@ eggs/
 *.so
 *-checkpoint.ipynb
 !tests/data
-extracted_output
 env_variable
-cmd_run
 detectron_model_x152.pth
 visualizes
 extracted_ocr
 models_ocr
 lmdb
+my_features
+output_screen
+textVQA
+vqa_maskrcnn_benchmark_m4c
+

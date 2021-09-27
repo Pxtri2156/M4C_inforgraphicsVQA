@@ -1,5 +1,5 @@
 --- evaluate on TextVQA --- 
-CUDA_VISIBLE_DEVICES=2 mmf_run dataset=textvqa \
+CUDA_VISIBLE_DEVICES=1 mmf_run dataset=textvqa \
    model=m4c \
    config=projects/m4c/configs/textvqa/defaults.yaml \
    env.save_dir=./save/m4c \
@@ -24,4 +24,19 @@ mmf_tensorboard_dir = "/mlcv/WorkingSpace/NCKH/tiennv/vqa_thesis/docvqa/libs/mmf
 mmf_wandb_log_dir = "/mlcv/WorkingSpace/NCKH/tiennv/vqa_thesis/docvqa/libs/mmf/env_variable/wandb_log"
 
 
+cd /mlcv/WorkingSpace/NCKH/tiennv/vqa_thesis/docvqa/libs/mmf/ 
+source /mlcv/WorkingSpace/SceneText/tripx/anaconda3/bin/activate 
+conda activate maskrcnn_benchmark_v3
 
+bash cmd_run/extract_ocr_bbox/train.sh 
+
+/mlcv/WorkingSpace/NCKH/tiennv/vqa_thesis/docvqa/libs/mmf/mmf/datasets/builders/inforgraphicvqa
+/mlcv/WorkingSpace/SceneText/tripx/anaconda3/envs/mmf_docVQA/lib/python3.7/site-packages/mmf/
+
+/mlcv/WorkingSpace/NCKH/tiennv/vqa_thesis/docvqa/libs/mmf/mmf/configs/datasets/inforgraphicvqa
+
+docker run --ipc=host -it --gpus all --runtime=nvidia --name mlcv_pxtri_docvqa_mmf_v1 \
+   --cpus=30 --shm-size=512m  \
+   -m 30000M --memory-swap -1 \
+   -v /mlcv:/mlcv -v /home:/home \
+   nvidia/cuda:10.2-cudnn7-devel-ubuntu18.04 /bin/bash
