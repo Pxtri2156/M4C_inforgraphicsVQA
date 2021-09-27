@@ -113,7 +113,8 @@ class Registry:
                 builder_cls, BaseDatasetBuilder
             ), "All builders must inherit BaseDatasetBuilder class"
             cls.mapping["builder_name_mapping"][name] = builder_cls
-            return builder_cls
+            # print("Builder cls", registry )
+            return registry
 
         return wrap
 

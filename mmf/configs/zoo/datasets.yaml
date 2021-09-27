@@ -615,3 +615,42 @@ charades:
       file_name: Charades.zip
     - url: https://ai2-public-datasets.s3-us-west-2.amazonaws.com/charades/Charades_v1_480.zip
       file_name: Charades_v1_480.zip
+
+
+inforgraphicvqa:
+  defaults:
+    version: 0.1_2021_09_24
+    resources:
+      features:
+      # - url: mmf://datasets/textvqa/defaults/features/features.tar.gz
+      #   file_name: features.tar.gz
+      #   hashcode: 960f69c651f5c6532b4e9d8310597aa8d21c65074768c9702ea822e4b2867a0d
+      annotations:
+      # - url: mmf://datasets/textvqa/defaults/annotations/annotations.tar.gz
+      #   file_name: annotations.tar.gz
+      #   hashcode: a72e43e19b4fd1b4b96e45de71a7d0fab0d860cd36ccf12b597c2c6a202eb10b
+      extras:
+      # - url: mmf://datasets/textvqa/defaults/extras.tar.gz
+      #   file_name: extras.tar.gz
+      #   hashcode: 68dc3b4aeffe4dce24ebb5d373baf0c304fbfbec73f0c1550118a85e90286e38
+  # caffe2:
+  #   version: 0.5.5_2020_04_28
+  #   resources:
+  #     features:
+  #     - url: mmf://datasets/textvqa/defaults/features/features.tar.gz
+  #       file_name: features.tar.gz
+  #       hashcode: f78f6a8e3c7c9c40c8034303457ebcbd5f2bf999cf8aeeba0f6b6f5403dd7bcf
+  ocr_en:
+    version: 0.1_2021_09_24
+    resources:
+      features:
+      # - url: mmf://datasets/textvqa/ocr_en/features/features.tar.gz
+      #   file_name: features.tar.gz
+      #   hashcode: 3542dff9338540ff2add59bb2db290d9ea5f82a4f21ab07fe39351a82b699ee0
+  # ocr_ml:
+  #   version: 0.5.5_2020_04_28
+  #   resources:
+  #     features:
+  #     - url: mmf://datasets/textvqa/ocr_ml/features/features.tar.gz
+  #       file_name: features.tar.gz
+  #       hashcode: 98d361e64d88df93483847c3e271b0337e149c6ff1a461e6913809d3457649ce

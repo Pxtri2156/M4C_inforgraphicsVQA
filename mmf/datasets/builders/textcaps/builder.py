@@ -11,6 +11,7 @@ class TextCapsBuilder(TextVQABuilder):
         self, dataset_name="textcaps", dataset_class=TextCapsDataset, *args, **kwargs
     ):
         super().__init__(dataset_name, dataset_class, *args, **kwargs)
+        print("Called")
 
     @classmethod
     def config_path(cls):
