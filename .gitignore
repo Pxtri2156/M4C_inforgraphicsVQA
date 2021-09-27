@@ -29,7 +29,6 @@ eggs/
 *.so
 *-checkpoint.ipynb
 !tests/data
-extracted_output
 env_variable
 detectron_model_x152.pth
 visualizes
