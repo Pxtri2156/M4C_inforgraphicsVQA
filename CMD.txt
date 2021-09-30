@@ -23,20 +23,26 @@ mmf_save_dir = "/mlcv/WorkingSpace/NCKH/tiennv/vqa_thesis/docvqa/libs/mmf/env_va
 mmf_tensorboard_dir = "/mlcv/WorkingSpace/NCKH/tiennv/vqa_thesis/docvqa/libs/mmf/env_variable/tensorboard"
 mmf_wandb_log_dir = "/mlcv/WorkingSpace/NCKH/tiennv/vqa_thesis/docvqa/libs/mmf/env_variable/wandb_log"
 
-
-cd /mlcv/WorkingSpace/NCKH/tiennv/vqa_thesis/docvqa/libs/mmf/ 
-source /mlcv/WorkingSpace/SceneText/tripx/anaconda3/bin/activate 
-conda activate maskrcnn_benchmark_v3
+docker exec -it mlcv_pxtri_docvqa_mmf_v1 /bin/bash;
+cd /mlcv/WorkingSpace/NCKH/tiennv/vqa_thesis/docvqa/libs/mmf/; 
+source /mlcv/WorkingSpace/SceneText/tripx/anaconda3/bin/activate; 
+conda activate mmf_docVQA
 
 bash cmd_run/extract_ocr_bbox/train.sh 
+
+script đánh giá: /mlcv/Databases/DocVQA_2020-21/task_3/Task_3_evaluation_script/Task_3/evaluate.py
+prediction file: /mlcv/Databases/DocVQA_2020-21/runs/layoutlmv2/inference/docvqa/baseline/val.json
 
 /mlcv/WorkingSpace/NCKH/tiennv/vqa_thesis/docvqa/libs/mmf/mmf/datasets/builders/inforgraphicvqa
 /mlcv/WorkingSpace/SceneText/tripx/anaconda3/envs/mmf_docVQA/lib/python3.7/site-packages/mmf/
 
 /mlcv/WorkingSpace/NCKH/tiennv/vqa_thesis/docvqa/libs/mmf/mmf/configs/datasets/inforgraphicvqa
-
+ bash cmd_run/inforgraphicvqa/train.sh
 docker run --ipc=host -it --gpus all --runtime=nvidia --name mlcv_pxtri_docvqa_mmf_v1 \
    --cpus=30 --shm-size=512m  \
    -m 30000M --memory-swap -1 \
    -v /mlcv:/mlcv -v /home:/home \
    nvidia/cuda:10.2-cudnn7-devel-ubuntu18.04 /bin/bash
+
+   /mlcv/WorkingSpace/NCKH/tiennv/vqa_thesis/docvqa/libs/mmf/mmf/datasets/processors/processors.py
+   /mlcv/WorkingSpace/SceneText/tripx/anaconda3/envs/mmf_docVQA/lib/python3.7/site-packages/mmf/datasets/processors/processors.py

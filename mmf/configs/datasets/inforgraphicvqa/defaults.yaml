@@ -14,11 +14,11 @@ dataset_config:
         - inforgraphicvqa/defaults/features  
       annotations:
         train:
-        - inforgraphicvqa/defaults/annotations/vqa_train_en.npy 
+        - inforgraphicvqa/defaults/annotations/infoVQA_train_en.npy 
         val:
-        - inforgraphicvqa/defaults/annotations/vqa_val_en.npy  
+        - inforgraphicvqa/defaults/annotations/infoVQA_val_en.npy   
         test:
-        - inforgraphicvqa/defaults/annotations/vqa_test_en.npy  
+        - inforgraphicvqa/defaults/annotations/infoVQA_test_en.npy   
       processors:
         text_processor:
           type: vocab

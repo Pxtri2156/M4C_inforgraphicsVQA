@@ -5,8 +5,10 @@ import time
 import cv2
 import numpy as np
 import tqdm
+import random
 
 ERROR_IMGS = ['20467.jpeg']
+MAX_NUM_ANS = 12
 
 def gen_infor_dataset(data):
     result={
@@ -56,6 +58,21 @@ def get_info_ocr_result(ocr_results_path, name):
     ocr_file.close()
     return ocr_tokens, ocr_info, ocr_normalized_boxes
 
+def gen_max_answer(answers, max_num_answer):
+    # max_num_answer defined in config of data set
+    cr_num_ans = len(answers)
+    new_answers = []
+    residual = max_num_answer % cr_num_ans
+    n = max_num_answer // cr_num_ans
+    for answer in answers:
+        new_answers = new_answers + [answer]*n
+    if residual != 0: 
+        for i in range(residual):
+            random_answer = random.choice(answers)
+            new_answers.append(random_answer)
+    return new_answers
+
+    
 def get_obj_normalized_bboxes(feature_path):
     info_features = np.load(feature_path, allow_pickle=True) 
     info_features = info_features[()]
@@ -75,6 +92,7 @@ def save_lmdb_results(results, output_folder):
     print("Saved lmdb results")
 
 def repair_lmdb_format(bboxes_folder, json_path, ocr_results_path, sub_num, output ):
+    set_name = None
     annot_fi = open(json_path, )
     origin_annotation = json.load(annot_fi)
     m_annots_data = origin_annotation['data']
@@ -117,6 +135,7 @@ def repair_lmdb_format(bboxes_folder, json_path, ocr_results_path, sub_num, outp
             feature_path = os.path.join(bboxes_folder, image_id + '_info.npy' )
             # print('feature_path: ', feature_path)
             obj_normalized_boxes = get_obj_normalized_bboxes(feature_path)
+            # feature_path = feature_path.split("/")[-1]
             new_annotation={
                 'question': question,
                 'image_id': image_id,
@@ -137,14 +156,16 @@ def repair_lmdb_format(bboxes_folder, json_path, ocr_results_path, sub_num, outp
             }
                     ## answers
             if set_name != 'test':
-                answers = annot['answers']
+                print('before ', annot['answers'] )
+                answers = gen_max_answer(annot['answers'], MAX_NUM_ANS)
                 new_annotation['answers'] = answers
+                print('after ', answers )
                 new_annotation['valid_answers'] = answers
             # print('new annotation: ', new_annotation)
             lmdb_result.append(new_annotation)
-        # break
+        input("Continue")
     # print('result: ', lmdb_result)
-        file_name = "lmdb_val_en_{}.npy".format(str(k/distance))
+        file_name = "infoVQA_{}_en_{}.npy".format(set_name, str(k/distance))
         output_path = os.path.join(output, file_name)
         save_lmdb_results(lmdb_result, output_path)
     annot_fi.close()
@@ -197,4 +218,6 @@ python utils/repair_annotation_split_train.py \
     --ocr_results="/mlcv/Databases/DocVQA_2020-21/task_3/train/ocr_results" \
     --output="my_features/annotations/train" \
     --sub_num=3
+
+
 '''
