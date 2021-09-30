@@ -225,7 +225,8 @@ class TextVQAAccuracyEvaluator:
         compute the accuracy (soft score) of human answers
         """
         answers = [self.answer_processor(a) for a in raw_answers]
-        assert len(answers) == 10
+        # assert len(answers) == 10 # TextVQA
+        assert len(answers) == 12 # InforgraphicVQA        
         gt_answers = list(enumerate(answers))
         unique_answers = set(answers)
         unique_answer_scores = {}

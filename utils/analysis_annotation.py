@@ -104,8 +104,23 @@ def sumarize_number_answer(annotations):
     sum = set(sum)
     return sum
 
-def main(args):
+def check_question_id(annotations, question_id):
+    for annotation in annotations[1:]:
+        if annotation["question_id"] == question_id:
+            return True
+    return False
 
+def count_type_answer(annotations):
+    result = {1: 0}
+    for annotation in annotations[1:]:
+        num_answer = len(annotation["answers"])
+        if num_answer not in result.keys():
+            result[num_answer] = 1
+        else:
+            result[num_answer] += 1
+    return result
+
+def main(args):
     annotations = np.load(args.annot, allow_pickle=True) 
     print('len: ', len(annotations))
     if args.option == 0:
@@ -153,6 +168,17 @@ def main(args):
         print("number answer")
         lst = sumarize_number_answer(annotations)
         print(lst)
+    elif args.option == 13:
+        print("No type answer")
+        result = count_type_answer(annotations)
+        print(result)
+    elif args.option == 14: 
+        question_id = 92270
+        print("Check question id ", question_id)
+        if check_question_id(annotations, question_id) == True:
+            print("Yes")
+        else:
+            print("No")
     else:
         print("Please choose suitable option")
 
@@ -184,8 +210,8 @@ if __name__ == "__main__":
     main(args)
 
 '''
-python utils/analysis_annotation_textvqa.py \
-    --annot="env_variable/data/datasets/textvqa/defaults/annotations/imdb_test_ocr_en.npy" \
+python utils/analysis_annotation.py \
+    --annot="env_variable/data/datasets/textvqa/defaults/annotations/imdb_train_ocr_en.npy" \
     --option=1
 
 python utils/analysis_annotation_textvqa.py \
@@ -194,11 +220,11 @@ python utils/analysis_annotation_textvqa.py \
 
 
 
-python utils/analysis_annotation_textvqa.py \
+python utils/analysis_annotation.py \
     --annot="env_variable/data/datasets/inforgraphicvqa/defaults/annotations/vqa_train_en.npy" \
     --option=0
 
-python utils/analysis_annotation_textvqa.py \
---annot="my_features/annotations/train/lmdb_val_en_0.0.npy" \
+python utils/analysis_annotation.py \
+--annot="env_variable/data/datasets/inforgraphicvqa/defaults/annotations/infoVQA_val_en.npy" \
 --option=0
 '''

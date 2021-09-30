@@ -6,11 +6,14 @@ info_info_list = []
 
 for file_name in os.listdir(path):
     print('Processing file', file_name)
-    lst = file_name.split("_")
-    if 'info' in lst:
-        info_info_list.append(file_name)
+    if 'npy' in file_name:
+        lst = file_name.split("_")
+        if 'info' in lst:
+            info_info_list.append(file_name)
+        else:
+            info_list.append(file_name)
     else:
-        info_list.append(file_name)
+        continue
 
 # print(info_info_list)
 # print(info_info_list)

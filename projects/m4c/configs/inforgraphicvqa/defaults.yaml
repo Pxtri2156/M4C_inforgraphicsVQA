@@ -37,7 +37,7 @@ dataset_config:
           max_length: 50
           max_copy_steps: 12
           # num_answers: 10 # max number ans of TextVQA
-          num_answers: 8 # max number answer # train set
+          num_answers: 12 # max number answer # train set
           # num_answers: 12 # max number answer # valid set
       copy_processor:
         type: copy
@@ -92,5 +92,5 @@ training:
     num_workers: 4
     task_size_proportional_sampling: true
     early_stop:
-      criteria: textvqa/textvqa_accuracy
+      criteria: inforgraphicvqa/textvqa_accuracy
       minimize: false

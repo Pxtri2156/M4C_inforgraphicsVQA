@@ -47,6 +47,6 @@ if __name__ == "__main__":
 
 '''
 python utils/analysis_annotation_feature.py \
-    --features="/mlcv/WorkingSpace/NCKH/tiennv/vqa_thesis/docvqa/libs/mmf/my_features/bbox_features/ocr/10002_info.npy" \
+    --features="/mlcv/WorkingSpace/NCKH/tiennv/vqa_thesis/docvqa/libs/mmf/env_variable/data/datasets/inforgraphicvqa/defaults/features/10002_info.npy" \
     --option=0
 '''
