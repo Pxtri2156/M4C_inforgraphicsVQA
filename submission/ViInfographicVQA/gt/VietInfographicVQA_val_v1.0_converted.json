@@ -1,0 +1,4039 @@
+{
+    "dataset_name": "VietInfographicVQA",
+    "dataset_version": "1.0",
+    "data_split": "val",
+    "data": [
+        {
+            "questionId": 2482000,
+            "question": "Có quốc kỳ của bao nhiêu nước trong hình?",
+            "image_url": "https://i.postimg.cc/1zpK3LBk/4820.jpg",
+            "image": "documents/4820.png",
+            "ocr_output_file": "ocr_results/4820.json",
+            "answers": [
+                "6"
+            ],
+            "question_types": [
+                "Non-extractive"
+            ]
+        },
+        {
+            "questionId": 2199400,
+            "question": "Năm 2019 tăng trưởng so với năm 2018 bao nhiêu?",
+            "image_url": "https://i.postimg.cc/Vk1rLqPG/1994.jpg",
+            "image": "documents/1994.png",
+            "ocr_output_file": "ocr_results/1994.json",
+            "answers": [
+                "33,3%"
+            ],
+            "question_types": [
+                "Figure"
+            ]
+        },
+        {
+            "questionId": 2320100,
+            "question": "Thời gian cần để vết thương tại màng mắt hồi phục là bao lâu?",
+            "image_url": "https://i.postimg.cc/FK1J20SY/3201.jpg",
+            "image": "documents/3201.png",
+            "ocr_output_file": "ocr_results/3201.json",
+            "answers": [
+                "48 tiếng"
+            ],
+            "question_types": [
+                "Text",
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2597300,
+            "question": "Người lao động có được hưởng lương theo thỏa thuận khi ngừng việc không?",
+            "image_url": "https://i.postimg.cc/rs8dNHSt/5973.jpg",
+            "image": "documents/5973.png",
+            "ocr_output_file": "ocr_results/5973.json",
+            "answers": [
+                "Có"
+            ],
+            "question_types": [
+                "Question span"
+            ]
+        },
+        {
+            "questionId": 2190000,
+            "question": "Nhập khẩu điện tử, máy tính tăng bao nhiêu %?",
+            "image_url": " https://i.postimg.cc/dts4kyF1/1900.jpg",
+            "image": "documents/1900.png",
+            "ocr_output_file": "ocr_results/1900.json",
+            "answers": [
+                "24.6",
+                "24,6%",
+                "24,6",
+                "24.6%"
+            ],
+            "question_types": [
+                "Text",
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2070200,
+            "question": "Chính sách thứ 1 trong 6 chính sách bảo hiểm xã hội, bảo hiểm y tế áp dụng từ 2020 là gì?",
+            "image_url": "https://i.postimg.cc/tJfDPrpH/0702.png",
+            "image": "documents/0702.png",
+            "ocr_output_file": "ocr_results/0702.json",
+            "answers": [
+                "Chậm nhất đến 1/1/2020, Cơ quan BHXH phải thực hiện phát hành thẻ BHYT điện tử cho người tham gia BHYT"
+            ],
+            "question_types": [
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2207500,
+            "question": "Tổng mức bán lẻ hàng hoá và doanh thu dịch vụ tiêu dùng đạt bao nhiêu nghìn tỉ đồng?",
+            "image_url": "https://i.postimg.cc/qMGyPJNC/2075.jpg",
+            "image": "documents/2075.png",
+            "ocr_output_file": "ocr_results/2075.json",
+            "answers": [
+                "3.243"
+            ],
+            "question_types": [
+                "Image span",
+                "Figure",
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2528800,
+            "question": "Ở kỳ họp thứ 5 Quốc hội khóa XIII bà Nguyễn Thị Kim Ngân có bao nhiêu phiếu tín nhiệm thấp?",
+            "image_url": "https://i.postimg.cc/QMpRZYTt/5288.jpg",
+            "image": "documents/5288.png",
+            "ocr_output_file": "ocr_results/5288.json",
+            "answers": [
+                "14"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2040500,
+            "question": "Vắc xin CombeFive là do nước nào sản xuất?",
+            "image_url": "https://i.postimg.cc/cCqrnY2b/0405.jpg",
+            "image": "documents/0405.png",
+            "ocr_output_file": "ocr_results/0405.json",
+            "answers": [
+                "Ấn Độ"
+            ],
+            "question_types": [
+                "Text",
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2638600,
+            "question": "Nhìn chung, diện tích nông sản được cấp chứng nhận VietGAP qua các năm như thế nào ?",
+            "image_url": "https://i.postimg.cc/13JZ8jzj/6386.jpg",
+            "image": "documents/6386.png",
+            "ocr_output_file": "ocr_results/6386.json",
+            "answers": [
+                "Giảm "
+            ],
+            "question_types": [
+                "Image span",
+                "Figure"
+            ]
+        },
+        {
+            "questionId": 2286600,
+            "question": "Tổng thời gian thẩm định cần bao nhiêu tháng?",
+            "image_url": "https://i.postimg.cc/pdvD4mZ8/2866.jpg",
+            "image": "documents/2866.png",
+            "ocr_output_file": "ocr_results/2866.json",
+            "answers": [
+                "6"
+            ],
+            "question_types": [
+                "Arithmetic"
+            ]
+        },
+        {
+            "questionId": 2537800,
+            "question": "Sự sinh trưởng của quần thể vi sinh vật trải qua bao nhiêu pha?",
+            "image_url": "https://i.postimg.cc/wv42CD0M/5378.jpg",
+            "image": "documents/5378.png",
+            "ocr_output_file": "ocr_results/5378.json",
+            "answers": [
+                "4"
+            ],
+            "question_types": [
+                "Non-extractive"
+            ]
+        },
+        {
+            "questionId": 2600900,
+            "question": "Nợ công đến năm 2025 là bao nhiêu?",
+            "image_url": "https://i.postimg.cc/6pGQnKDm/6009.jpg",
+            "image": "documents/6009.png",
+            "ocr_output_file": "ocr_results/6009.json",
+            "answers": [
+                "47,5% GDP"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2047000,
+            "question": "Bệnh nhân BN 1581 là nữ và sinh năm 1968?",
+            "image_url": "https://i.postimg.cc/xdzQb7Q9/0470.jpg",
+            "image": "documents/0470.png",
+            "ocr_output_file": "ocr_results/0470.json",
+            "answers": [
+                "Sai"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2128100,
+            "question": "Vai trò của dự án cao tốc Hạ Long - Vân Đồn",
+            "image_url": "https://i.postimg.cc/JzBrLSSb/1281.png",
+            "image": "documents/1281.png",
+            "ocr_output_file": "ocr_results/1281.json",
+            "answers": [
+                "Kết nối tam giác kinh tế Hà Nội - Hải Phòng - Quảng Ninh"
+            ],
+            "question_types": [
+                "Figure",
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2327900,
+            "question": "Kết quả nổi bật được chia thành mấy nhóm?",
+            "image_url": "https://i.postimg.cc/ZK7bX2xL/3279.jpg",
+            "image": "documents/3279.png",
+            "ocr_output_file": "ocr_results/3279.json",
+            "answers": [
+                "10"
+            ],
+            "question_types": [
+                "Count",
+                "Visual/Layout",
+                "Non-extractive"
+            ]
+        },
+        {
+            "questionId": 2185000,
+            "question": "Có bao nhiêu năm quy mô nền kinh tế dưới 200 tỷ USD ?",
+            "image_url": "https://i.postimg.cc/0jDRzJ1Z/1850.jpg ",
+            "image": "documents/1850.png",
+            "ocr_output_file": "ocr_results/1850.json",
+            "answers": [
+                "3"
+            ],
+            "question_types": [
+                "Non-extractive",
+                "Figure",
+                "Arithmetic"
+            ]
+        },
+        {
+            "questionId": 2280700,
+            "question": "Việt Nam có bao nhiêu loại đất khác nhau?",
+            "image_url": "https://i.postimg.cc/59XFP5VT/2807.jpg",
+            "image": "documents/2807.png",
+            "ocr_output_file": "ocr_results/2807.json",
+            "answers": [
+                "64"
+            ],
+            "question_types": []
+        },
+        {
+            "questionId": 2483600,
+            "question": "Dân số của Việt Nam là bao nhiêu triệu người?",
+            "image_url": "https://i.postimg.cc/6qQVzTKK/4836.jpg",
+            "image": "documents/4836.png",
+            "ocr_output_file": "ocr_results/4836.json",
+            "answers": [
+                "92,7"
+            ],
+            "question_types": [
+                "Figure"
+            ]
+        },
+        {
+            "questionId": 2275800,
+            "question": "Cực Nam Việt Nam thuộc tỉnh nào?",
+            "image_url": "https://i.postimg.cc/vB3DPBqQ/2758.jpg",
+            "image": "documents/2758.png",
+            "ocr_output_file": "ocr_results/2758.json",
+            "answers": [
+                "Điện Biên"
+            ],
+            "question_types": [
+                "Map"
+            ]
+        },
+        {
+            "questionId": 2598800,
+            "question": "Có bao nhiêu nguy cơ?",
+            "image_url": "https://i.postimg.cc/YqCG4Jr5/5988.jpg",
+            "image": "documents/5988.png",
+            "ocr_output_file": "ocr_results/5988.json",
+            "answers": [
+                "5"
+            ],
+            "question_types": [
+                "Count"
+            ]
+        },
+        {
+            "questionId": 2037700,
+            "question": "Tổng giá trị xuất khẩu tháng 6 năm 2020 là bao nhiêu?",
+            "image_url": "https://i.postimg.cc/sDmgVtj8/0377.jpg",
+            "image": "documents/0377.png",
+            "ocr_output_file": "ocr_results/0377.json",
+            "answers": [
+                "121.2 tỷ USD?"
+            ],
+            "question_types": [
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2626600,
+            "question": "Ngành nào có tỉ lệ tăng trưởng cao nhất trong sản xuất công nghiệp ?",
+            "image_url": "https://i.postimg.cc/14hjdp36/6266.png",
+            "image": "documents/6266.png",
+            "ocr_output_file": "ocr_results/6266.json",
+            "answers": [
+                "Chế biến, chế tạo (12,3%)"
+            ],
+            "question_types": [
+                "Image span",
+                "Figure",
+                "Sorting"
+            ]
+        },
+        {
+            "questionId": 2444700,
+            "question": "IIP ước tính tăng bao nhiêu so với cùng kỳ năm 2017?",
+            "image_url": "https://i.postimg.cc/dtZjgP82/4447.png",
+            "image": "documents/4447.png",
+            "ocr_output_file": "ocr_results/4447.json",
+            "answers": [
+                "10,4 %"
+            ],
+            "question_types": [
+                "Figure"
+            ]
+        },
+        {
+            "questionId": 2035500,
+            "question": "Nhóm đối tượng số 5 được ưu tiên tiêm vắc xin phòng COVID-19 là?",
+            "image_url": "https://i.postimg.cc/ryt4wy3H/0355.jpg",
+            "image": "documents/0355.png",
+            "ocr_output_file": "ocr_results/0355.json",
+            "answers": [
+                "Lực lượng công an"
+            ],
+            "question_types": [
+                "Text",
+                "Figure"
+            ]
+        },
+        {
+            "questionId": 2490100,
+            "question": "Lương cơ bản chiếm bao nhiêu phần trăm?",
+            "image_url": "https://i.postimg.cc/NFy95XYK/4901.jpg",
+            "image": "documents/4901.png",
+            "ocr_output_file": "ocr_results/4901.json",
+            "answers": [
+                "70%"
+            ],
+            "question_types": [
+                "Figure"
+            ]
+        },
+        {
+            "questionId": 2607600,
+            "question": "năm 2018, lâm nghiệp tăng trưởng bao nhiêu phần trăm ",
+            "image_url": "https://i.postimg.cc/7ZgkqLvw/6076.png",
+            "image": "documents/6076.png",
+            "ocr_output_file": "ocr_results/6076.json",
+            "answers": [
+                "6,01"
+            ],
+            "question_types": [
+                "Image span",
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2297900,
+            "question": "Ai là Nguyên Giám đốc Bệnh viện Nhi trung ương?",
+            "image_url": "https://i.postimg.cc/PJDW0YBW/2979.jpg",
+            "image": "documents/2979.png",
+            "ocr_output_file": "ocr_results/2979.json",
+            "answers": [
+                "Nguyễn Thanh Liêm"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2143800,
+            "question": "Có hình ảnh châu chấu trong bức ảnh không?",
+            "image_url": "https://i.postimg.cc/N04Wq4G6/1438.png",
+            "image": "documents/1438.png",
+            "ocr_output_file": "ocr_results/1438.json",
+            "answers": [
+                "Có"
+            ],
+            "question_types": [
+                "Question span"
+            ]
+        },
+        {
+            "questionId": 2528700,
+            "question": "Nhờ sự giúp đỡ của những ai chủ tịch Hồ Chí Minh được thả tự do?",
+            "image_url": "https://i.postimg.cc/25pPJN3M/5287.jpg",
+            "image": "documents/5287.png",
+            "ocr_output_file": "ocr_results/5287.json",
+            "answers": [
+                "Luật sư Loseby và Luật sư JenKin"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2454100,
+            "question": "Mức tăng chỉ số sản xuất công nghiệp tháng 5 năm 2015 so với cùng kỳ năm 2014 là?",
+            "image_url": "https://i.postimg.cc/3xHm6yrh/4541.png",
+            "image": "documents/4541.png",
+            "ocr_output_file": "ocr_results/4541.json",
+            "answers": [
+                "7,5%"
+            ],
+            "question_types": [
+                "Figure"
+            ]
+        },
+        {
+            "questionId": 2605400,
+            "question": "các sai lầm cần tránh khi đầu tư bất động sản ?",
+            "image_url": "https://i.postimg.cc/wvxHfYGH/6054.jpg",
+            "image": "documents/6054.png",
+            "ocr_output_file": "ocr_results/6054.json",
+            "answers": [
+                "thiếu kinh nghiệm quản lý tài chính",
+                "tập trung tất cả nguồn đầu tư vào một địa điểm",
+                "thiếu nghiên cứu, phân tích thị trường",
+                "không có những tư vấn từ chuyên gia bất động sản",
+                "ra những quyết định theo cảm tính nhiều hơn lí trí",
+                "tài chính đi vay chiếm 80% giá trị bất động sản",
+                "không trực tiếp thấy những bất động sản mà bạn đầu tư",
+                "không mở rộng tìm hiểu, kiểm tra các vùng lân cận",
+                "quá tin tưởng vào số liệu báo cáo tư vấn",
+                "Không phân định cụ thể hạng mục đầu tư "
+            ],
+            "question_types": [
+                "Multi-Span",
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2585200,
+            "question": "Tháng nào có % so với tháng trước cao nhất?",
+            "image_url": "https://i.postimg.cc/0yHp297X/5852.jpg",
+            "image": "documents/5852.png",
+            "ocr_output_file": "ocr_results/5852.json",
+            "answers": [
+                "1"
+            ],
+            "question_types": [
+                "Sorting",
+                "Figure"
+            ]
+        },
+        {
+            "questionId": 2040900,
+            "question": "Tiêm vắc xin cho loại bệnh nào?",
+            "image_url": "https://i.postimg.cc/FHPzxwwc/0409.jpg",
+            "image": "documents/0409.png",
+            "ocr_output_file": "ocr_results/0409.json",
+            "answers": [
+                "Sởi, Rubella, Ho gà, ..."
+            ],
+            "question_types": [
+                "Multi-Span"
+            ]
+        },
+        {
+            "questionId": 2188000,
+            "question": "Có bao nhiêu dự án cấp mới?",
+            "image_url": "https://i.postimg.cc/tCkv2zkW/1880.jpg",
+            "image": "documents/1880.png",
+            "ocr_output_file": "ocr_results/1880.json",
+            "answers": [
+                "44",
+                "44 dự án"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2631500,
+            "question": "Theo kế hoạch triển khai Chương trình mục tiêu quốc gia giai đoạn 2016-2020, cả nước phải có bao nhiêu xã đạt chuẩn nông thôn mới vào năm 2020 ?",
+            "image_url": "https://i.postimg.cc/KYpFHHSM/6315.png",
+            "image": "documents/6315.png",
+            "ocr_output_file": "ocr_results/6315.json",
+            "answers": [
+                "50% tổng số xã"
+            ],
+            "question_types": [
+                "Image span",
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2284600,
+            "question": "Nguồn tin được lấy từ đâu?",
+            "image_url": "https://i.postimg.cc/2SVJyKRT/2846.jpg",
+            "image": "documents/2846.png",
+            "ocr_output_file": "ocr_results/2846.json",
+            "answers": [
+                "Bộ Nông nghiệp và Phát triển nông thôn"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2640500,
+            "question": "Số xã dưới 5 tiêu chí  trong tháng 10/2018?",
+            "image_url": "https://i.postimg.cc/k4CNLfQ7/6405.jpg",
+            "image": "documents/6405.png",
+            "ocr_output_file": "ocr_results/6405.json",
+            "answers": [
+                "88"
+            ],
+            "question_types": [
+                "Figure"
+            ]
+        },
+        {
+            "questionId": 2193000,
+            "question": "Ngành nông, lâm nghiệp và thủy sản có mức tăng trưởng tăng dần trong khoảng thời gian nào??",
+            "image_url": "https://i.postimg.cc/Pr7YXpr0/1930.jpg",
+            "image": "documents/1930.png",
+            "ocr_output_file": "ocr_results/1930.json",
+            "answers": [
+                "Từ năm 2016 đến năm 2018",
+                "2016-2018"
+            ],
+            "question_types": [
+                "Figure",
+                "Sorting"
+            ]
+        },
+        {
+            "questionId": 2638800,
+            "question": "Các quốc gia nào chiếm thị phần xuất khẩu chính ?",
+            "image_url": "https://i.postimg.cc/yYKqvHgG/6388.jpg",
+            "image": "documents/6388.png",
+            "ocr_output_file": "ocr_results/6388.json",
+            "answers": [
+                "Mỹ, Trung Quốc, Nhật Bản, Hàn Quốc"
+            ],
+            "question_types": [
+                "Image span",
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2107500,
+            "question": "Ai là người sáng lập ngày Trái Đất ?",
+            "image_url": "https://i.postimg.cc/prqr17yg/1075.jpg ",
+            "image": "documents/1075.png",
+            "ocr_output_file": "ocr_results/1075.json",
+            "answers": [
+                "thượng nghị sĩ Hoa Kỳ Gaylord Nelson"
+            ],
+            "question_types": [
+                "Image span",
+                "Figure"
+            ]
+        },
+        {
+            "questionId": 2523200,
+            "question": "Có tổng cộng bao nhiêu người tham gia dự thi sau 5 tuần?",
+            "image_url": "https://i.postimg.cc/85dDwPHZ/5232.jpg",
+            "image": "documents/5232.png",
+            "ocr_output_file": "ocr_results/5232.json",
+            "answers": [
+                "362 245 người"
+            ],
+            "question_types": [
+                "Arithmetic",
+                "Figure"
+            ]
+        },
+        {
+            "questionId": 2522100,
+            "question": "Bao nhiêu đại biểu tham gia đai hội lần VI?",
+            "image_url": "https://i.postimg.cc/BQpb4N2m/5221.jpg",
+            "image": "documents/5221.png",
+            "ocr_output_file": "ocr_results/5221.json",
+            "answers": [
+                "1129 đại biểu"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2085100,
+            "question": "5 điểm nóng dịch COVID-19 tính đến 16h ngày 25/2/2020 ở đâu?",
+            "image_url": "https://i.postimg.cc/CKzGCGrh/0851.jpg",
+            "image": "documents/0851.png",
+            "ocr_output_file": "ocr_results/0851.json",
+            "answers": [
+                "Trung Quốc, Hàn Quốc, Italy, Iran, Nhật Bản"
+            ],
+            "question_types": [
+                "Multi-Span"
+            ]
+        },
+        {
+            "questionId": 2522800,
+            "question": "Tính đến năm 2011 Đảng Cộng sản Việt Nam đã có bao nhiêu đảng viên?",
+            "image_url": "https://i.postimg.cc/nrZVtQr8/5228.jpg",
+            "image": "documents/5228.png",
+            "ocr_output_file": "ocr_results/5228.json",
+            "answers": [
+                "3 600 000 đảng viên"
+            ],
+            "question_types": [
+                "Figure",
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2494800,
+            "question": "Phần game nào ít nhân vật chơi được nhất nhất?",
+            "image_url": "https://i.postimg.cc/J4Z3xwVG/4948.jpg",
+            "image": "documents/4948.png",
+            "ocr_output_file": "ocr_results/4948.json",
+            "answers": [
+                "Resident Evil Zero"
+            ],
+            "question_types": [
+                "Table/List",
+                "Sorting"
+            ]
+        },
+        {
+            "questionId": 2561300,
+            "question": "Có bao nhiêu loài động vật tuyệt chủng?",
+            "image_url": "https://i.postimg.cc/h4JNSGx6/5613.jpg",
+            "image": "documents/5613.png",
+            "ocr_output_file": "ocr_results/5613.json",
+            "answers": [
+                "748"
+            ],
+            "question_types": [
+                "Table/List"
+            ]
+        },
+        {
+            "questionId": 2082900,
+            "question": "Số lượng sư tử Châu Phi ở NAM SUDAN là bao nhiêu?",
+            "image_url": "https://i.postimg.cc/vHF0QNqW/0829.jpg",
+            "image": "documents/0829.png",
+            "ocr_output_file": "ocr_results/0829.json",
+            "answers": [
+                "866"
+            ],
+            "question_types": [
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2455600,
+            "question": "Chỉ số sản xuất công nghiệp quý I qua các năm tăng nhiều nhất là bao nhiêu?",
+            "image_url": "https://i.postimg.cc/Hx2ptkWT/4556.png",
+            "image": "documents/4556.png",
+            "ocr_output_file": "ocr_results/4556.json",
+            "answers": [
+                "11.6",
+                "11,6",
+                "11,6%"
+            ],
+            "question_types": [
+                "Figure"
+            ]
+        },
+        {
+            "questionId": 2526300,
+            "question": "Ngày nghề cá Việt Nam là ngày mấy?",
+            "image_url": "https://i.postimg.cc/VkS8pFgr/5263.jpg",
+            "image": "documents/5263.png",
+            "ocr_output_file": "ocr_results/5263.json",
+            "answers": [
+                "1/4"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2482200,
+            "question": "Vào tháng 9/1960, Hội nghị Trung ương Đảng toàn quốc lần thứ III đã làm gì?",
+            "image_url": "https://i.postimg.cc/c4bh976b/4822.jpg",
+            "image": "documents/4822.png",
+            "ocr_output_file": "ocr_results/4822.json",
+            "answers": [
+                "Đề ra đường lối chung cho cách mạng cả nước"
+            ],
+            "question_types": [
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2483601,
+            "question": "GDP bình quân của Việt Nam là bao nhiêu USD/người/năm?",
+            "image_url": "https://i.postimg.cc/6qQVzTKK/4836.jpg",
+            "image": "documents/4836.png",
+            "ocr_output_file": "ocr_results/4836.json",
+            "answers": [
+                "2.215"
+            ],
+            "question_types": [
+                "Figure"
+            ]
+        },
+        {
+            "questionId": 2494801,
+            "question": "Tổng cộng bao nhiêu phần game Resident Evil được phát hành?",
+            "image_url": "https://i.postimg.cc/J4Z3xwVG/4948.jpg",
+            "image": "documents/4948.png",
+            "ocr_output_file": "ocr_results/4948.json",
+            "answers": [
+                "10 phần"
+            ],
+            "question_types": [
+                "Arithmetic",
+                "Table/List"
+            ]
+        },
+        {
+            "questionId": 2144900,
+            "question": "Hướng đổi mới đầu tư cho an ninh lương thực là gì?",
+            "image_url": "https://i.postimg.cc/QtdvXTVR/1449.jpg",
+            "image": "documents/1449.png",
+            "ocr_output_file": "ocr_results/1449.json",
+            "answers": [
+                "CÔNG NGHỆ, HỢP TÁC CÔNG - TƯ VỀ THỰC PHẨM, CƠ SỞ HẠ TẦNG"
+            ],
+            "question_types": [
+                "Text",
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2186900,
+            "question": "Tổng mức bán lẻ hàng hóa và doanh thu dịch vụ tiêu dùng năm 2020 bao nhiêu ?",
+            "image_url": "https://i.postimg.cc/k5zpWXcH/1869.jpg ",
+            "image": "documents/1869.png",
+            "ocr_output_file": "ocr_results/1869.json",
+            "answers": [
+                "4.590,7 nghìn tỷ đồng"
+            ],
+            "question_types": [
+                "Image span",
+                "Figure"
+            ]
+        },
+        {
+            "questionId": 2428500,
+            "question": "Thời gian thi THPT Quốc gia năm học 2019-2020 là?",
+            "image_url": "https://i.postimg.cc/XYXQjBSC/4285.jpg",
+            "image": "documents/4285.png",
+            "ocr_output_file": "ocr_results/4285.json",
+            "answers": [
+                "8-11/8/2020"
+            ],
+            "question_types": [
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2244100,
+            "question": "Có bao nhiêu chùa thuộc các địa điểm du lịch nổi bật?",
+            "image_url": "https://i.postimg.cc/4d3S9LjW/2441.png",
+            "image": "documents/2441.png",
+            "ocr_output_file": "ocr_results/2441.json",
+            "answers": [
+                "2"
+            ],
+            "question_types": [
+                "Count"
+            ]
+        },
+        {
+            "questionId": 2034000,
+            "question": "Bộ Y Tế cảnh báo 20 bệnh nhân sẽ như thế nào khi mắc covid-19?",
+            "image_url": "https://i.postimg.cc/1zCFf8yk/0340.jpg",
+            "image": "documents/0340.png",
+            "ocr_output_file": "ocr_results/0340.json",
+            "answers": [
+                "TRỞ NẶNG"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2529700,
+            "question": "Qua những cuộc kháng chiến để lại những giá trị gì?",
+            "image_url": "https://i.postimg.cc/L50W3rry/5297.webp",
+            "image": "documents/5297.png",
+            "ocr_output_file": "ocr_results/5297.json",
+            "answers": [
+                "Giữ vững được độc lập dân tộc, để lại nhiều bài học kinh nghiệm"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2522000,
+            "question": "Ngày mất của đại thi Hào Nguyễn Du là?",
+            "image_url": "https://i.postimg.cc/L80sZXCf/5220.png",
+            "image": "documents/5220.png",
+            "ocr_output_file": "ocr_results/5220.json",
+            "answers": [
+                "16/9/1820"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2614000,
+            "question": "có bao nhiêu nguyên tác sản xuất nông nghiệp hữu cơ ?",
+            "image_url": "https://i.postimg.cc/PrDGMq5Y/6140.jpg",
+            "image": "documents/6140.png",
+            "ocr_output_file": "ocr_results/6140.json",
+            "answers": [
+                "4"
+            ],
+            "question_types": [
+                "Image span",
+                "Arithmetic"
+            ]
+        },
+        {
+            "questionId": 2605300,
+            "question": "tài chính cá nhân có dễ dàng không ?",
+            "image_url": "https://i.postimg.cc/2yKzL9TY/6053.jpg",
+            "image": "documents/6053.png",
+            "ocr_output_file": "ocr_results/6053.json",
+            "answers": [
+                "không"
+            ],
+            "question_types": [
+                "Image span",
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2207900,
+            "question": "Nước nào sở hữu nền kinh tế quốc gia lớn nhất thế giới?",
+            "image_url": "https://i.postimg.cc/44Vz1bZP/2079.png",
+            "image": "documents/2079.png",
+            "ocr_output_file": "ocr_results/2079.json",
+            "answers": [
+                "Mỹ"
+            ],
+            "question_types": [
+                "Sorting",
+                "Figure",
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2515800,
+            "question": "Máy phát tiền mặt đầu tiên được lắp tại đâu?",
+            "image_url": "https://i.postimg.cc/PJkJrR6R/5158.jpg",
+            "image": "documents/5158.png",
+            "ocr_output_file": "ocr_results/5158.json",
+            "answers": [
+                "Chi nhánh ngân hàng Barclays ở London"
+            ],
+            "question_types": [
+                "Text",
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2123500,
+            "question": "Tính đến tháng 6/2018 thì số người thực hiện điều trị cai nghiện là?",
+            "image_url": "https://i.postimg.cc/NjVK86vx/1235.jpg",
+            "image": "documents/1235.png",
+            "ocr_output_file": "ocr_results/1235.json",
+            "answers": [
+                "34.620"
+            ],
+            "question_types": [
+                "Figure",
+                "Text",
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2109100,
+            "question": "Năm nào có tốc độ tăng dân số và kinh tế thấp thứ hai?",
+            "image_url": "https://i.postimg.cc/Y23v948b/1091.png ",
+            "image": "documents/1091.png",
+            "ocr_output_file": "ocr_results/1091.json",
+            "answers": [
+                "2000"
+            ],
+            "question_types": [
+                "Image span",
+                "Figure",
+                "Sorting"
+            ]
+        },
+        {
+            "questionId": 2086400,
+            "question": "Gỗ dùng làm nội thất xe hơi cao cấp được không?",
+            "image_url": "https://i.postimg.cc/65tCbJb1/0864.jpg",
+            "image": "documents/0864.png",
+            "ocr_output_file": "ocr_results/0864.json",
+            "answers": [
+                "Được"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2278700,
+            "question": "Anilin có tan trong benzen không?",
+            "image_url": "https://i.postimg.cc/gj1z56vP/2787.jpg",
+            "image": "documents/2787.png",
+            "ocr_output_file": "ocr_results/2787.json",
+            "answers": [
+                "Có",
+                "có"
+            ],
+            "question_types": [
+                "Question span"
+            ]
+        },
+        {
+            "questionId": 2641400,
+            "question": "Các chăn nuôi nào tăng so với cùng thời điểm năm trước?",
+            "image_url": "https://i.postimg.cc/qqjGsyC4/6414.jpg",
+            "image": "documents/6414.png",
+            "ocr_output_file": "ocr_results/6414.json",
+            "answers": [
+                "Bò,Lợn,Gia cầm"
+            ],
+            "question_types": [
+                "Multi-Span",
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2207000,
+            "question": "Ước tính quy mô ngành thương mại điện tử khu vực Đông Nam Á đạt bao nhiêu tỷ USD vào năm 2025?",
+            "image_url": "https://i.postimg.cc/fL0YpYdw/2070.jpg",
+            "image": "documents/2070.png",
+            "ocr_output_file": "ocr_results/2070.json",
+            "answers": [
+                "150"
+            ],
+            "question_types": [
+                "Image span",
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2457900,
+            "question": "Diễn đàn có bao nhiêu thành viên thuộc châu Á và bao nhiêu thành viên thuộc châu Âu?",
+            "image_url": "https://i.postimg.cc/fTjq8SY4/4579.jpg",
+            "image": "documents/4579.png",
+            "ocr_output_file": "ocr_results/4579.json",
+            "answers": [
+                "22 và 31"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2351800,
+            "question": "Lê Duẩn thôi chức vụ tổng bí thư năm bao nhiêu?",
+            "image_url": "https://i.postimg.cc/ZnXfdThc/3518.jpg",
+            "image": "documents/3518.png",
+            "ocr_output_file": "ocr_results/3518.json",
+            "answers": [
+                "1986"
+            ],
+            "question_types": [
+                "Text",
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2482500,
+            "question": "Có bao nhiêu nước đang đóng góp lực lượng cho các phái bộ gìn giữ hòa bình Liên hợp quốc?",
+            "image_url": "https://i.postimg.cc/nrw4WZVD/4825.png",
+            "image": "documents/4825.png",
+            "ocr_output_file": "ocr_results/4825.json",
+            "answers": [
+                "125"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2045400,
+            "question": "Chuyến bay mức độ 1 hoặc 2 cần gì?",
+            "image_url": "https://i.postimg.cc/HkKHnmfS/0454.jpg",
+            "image": "documents/0454.png",
+            "ocr_output_file": "ocr_results/0454.json",
+            "answers": [
+                "Găng tay y tế",
+                "Khẩu trang kháng giọt bắn"
+            ],
+            "question_types": [
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2528200,
+            "question": "Chiếc máy bay 7 cánh do ai chế tạo?",
+            "image_url": "https://i.postimg.cc/MZdJGLrf/5282.jpg",
+            "image": "documents/5282.png",
+            "ocr_output_file": "ocr_results/5282.json",
+            "answers": [
+                "Federick Gerhardt"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2207600,
+            "question": "Chỉ số sản xuất công nghiệp quý 1 năm 2021 thay đổi như thế nào so với cùng kỳ?",
+            "image_url": "https://i.postimg.cc/5ySQWg2M/2076.png",
+            "image": "documents/2076.png",
+            "ocr_output_file": "ocr_results/2076.json",
+            "answers": [
+                "Tăng 11,38%"
+            ],
+            "question_types": [
+                "Image span",
+                "Figure"
+            ]
+        },
+        {
+            "questionId": 2636600,
+            "question": "Hiện nay, xuất khẩu gạo của nước ta đứng bao nhiêu trên thế giới ?",
+            "image_url": "https://i.postimg.cc/wT5zpvYH/6366.png",
+            "image": "documents/6366.png",
+            "ocr_output_file": "ocr_results/6366.json",
+            "answers": [
+                "Đứng thứ 3 (sau Ấn Độ, Thái Lan)"
+            ],
+            "question_types": [
+                "Multi-Span",
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2140000,
+            "question": "Tỷ lệ bao phủ BHYT trong chi tiêu xã hội là bao nhiêu phần trăm?",
+            "image_url": "https://i.postimg.cc/mg3nCwHv/1400.jpg",
+            "image": "documents/1400.png",
+            "ocr_output_file": "ocr_results/1400.json",
+            "answers": [
+                "95,0%"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2460800,
+            "question": "Ngành nào có chỉ số tăng trưởng âm trong năm 2018?",
+            "image_url": "https://i.postimg.cc/qBYppYFB/4608.png",
+            "image": "documents/4608.png",
+            "ocr_output_file": "ocr_results/4608.json",
+            "answers": [
+                "Ngành khai khoáng"
+            ],
+            "question_types": [
+                "Figure"
+            ]
+        },
+        {
+            "questionId": 2243700,
+            "question": "Tổng thu từ khác du lịch đạt được bao nhiêu?",
+            "image_url": "https://i.postimg.cc/RhNyjsRW/2437.jpg",
+            "image": "documents/2437.png",
+            "ocr_output_file": "ocr_results/2437.json",
+            "answers": [
+                "505.000 tỷ đồng"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2282700,
+            "question": "Đến năm 2030, thế giới sẽ có bao nhiêu người rơi vào cảnh nghèo đói dươi tác động của biến đổi khí hậu?",
+            "image_url": "https://i.postimg.cc/d39MRk4B/2827.png",
+            "image": "documents/2827.png",
+            "ocr_output_file": "ocr_results/2827.json",
+            "answers": [
+                "126 triệu người"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2071800,
+            "question": "Đối với những người từ các tỉnh, thành khác về Hà Nội cần làm gì?",
+            "image_url": "https://i.postimg.cc/KvMDwDmR/0718.jpg",
+            "image": "documents/0718.png",
+            "ocr_output_file": "ocr_results/0718.json",
+            "answers": [
+                "Khai báo tại trạm y tế xã, phường"
+            ],
+            "question_types": [
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2637700,
+            "question": "Trong năm 2018 có bao nhiêu doanh nghiệp cổ phần hóa ?",
+            "image_url": "https://i.postimg.cc/XJyMDNkR/6377.png",
+            "image": "documents/6377.png",
+            "ocr_output_file": "ocr_results/6377.json",
+            "answers": [
+                "12"
+            ],
+            "question_types": [
+                "Image span",
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2084900,
+            "question": "Diện tích rừng tự nhiên tính đến hết năm 2016 là bao nhiêu?",
+            "image_url": "https://i.postimg.cc/2j44x8GZ/0849.png",
+            "image": "documents/0849.png",
+            "ocr_output_file": "ocr_results/0849.json",
+            "answers": [
+                "10.242.141 "
+            ],
+            "question_types": [
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2142800,
+            "question": "Cái gì là chủ đề nóng trong năm 2018?",
+            "image_url": "https://i.postimg.cc/sg5kKzt0/1428.png",
+            "image": "documents/1428.png",
+            "ocr_output_file": "ocr_results/1428.json",
+            "answers": [
+                "An toàn an ninh mạng"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2529300,
+            "question": "\"Hà Nội - Điện Biên Phủ trên không\" kéo dài bao nhiêu ngày?",
+            "image_url": "https://i.postimg.cc/zB76VLpY/5293.jpg",
+            "image": "documents/5293.png",
+            "ocr_output_file": "ocr_results/5293.json",
+            "answers": [
+                "12"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2459700,
+            "question": "Nguồn nhân lực là thế mạnh được các cơ quan, đơn vị, doanh nghiệp đánh giá cao nhất?",
+            "image_url": "https://i.postimg.cc/7Zh1S5Vn/4597.jpg ",
+            "image": "documents/4597.png",
+            "ocr_output_file": "ocr_results/4597.json",
+            "answers": [
+                "đúng",
+                "Đúng"
+            ],
+            "question_types": [
+                "Figure",
+                "Sorting"
+            ]
+        },
+        {
+            "questionId": 2435800,
+            "question": "Số doanh nghiệp giải thể tăng hay giảm?",
+            "image_url": "https://i.postimg.cc/T2DxwhxB/4358.jpg",
+            "image": "documents/4358.png",
+            "ocr_output_file": "ocr_results/4358.json",
+            "answers": [
+                "Tăng"
+            ],
+            "question_types": [
+                "Non-extractive"
+            ]
+        },
+        {
+            "questionId": 2529800,
+            "question": "Vào năm nào ra mắt SD Platinum?",
+            "image_url": "https://i.postimg.cc/fyk2y8JY/5298.png",
+            "image": "documents/5298.png",
+            "ocr_output_file": "ocr_results/5298.json",
+            "answers": [
+                "2010"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2644300,
+            "question": "Nguồn của bài viết này là ở đâu?",
+            "image_url": "https://i.postimg.cc/T38Kkhq6/6443.jpg",
+            "image": "documents/6443.png",
+            "ocr_output_file": "ocr_results/6443.json",
+            "answers": [
+                "Tổng cụ Thống kê"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2528201,
+            "question": "Chim bồ câu gỗ được tạo ra vào năm nào?",
+            "image_url": "https://i.postimg.cc/MZdJGLrf/5282.jpg",
+            "image": "documents/5282.png",
+            "ocr_output_file": "ocr_results/5282.json",
+            "answers": [
+                "Năm 400 TCN"
+            ],
+            "question_types": []
+        },
+        {
+            "questionId": 2141900,
+            "question": "Bao nhiêu đại biểu không tán thành luật an ninh mạng?",
+            "image_url": "https://i.postimg.cc/gj5Ct2z1/1419.jpg",
+            "image": "documents/1419.png",
+            "ocr_output_file": "ocr_results/1419.json",
+            "answers": [
+                "15"
+            ],
+            "question_types": [
+                "Text",
+                "Figure"
+            ]
+        },
+        {
+            "questionId": 2190800,
+            "question": "Thu thập thông tin giai đoạn 1 diễn ra trong khoản thời gian nào?",
+            "image_url": "https://i.postimg.cc/HkJ0X0hp/1908.jpg",
+            "image": "documents/1908.png",
+            "ocr_output_file": "ocr_results/1908.json",
+            "answers": [
+                "1/3 - 30/5/2021",
+                "Từ 1/3 đến 30/5/2021",
+                "Từ ngày 1/3 đến ngày 30/5/2021"
+            ],
+            "question_types": [
+                "Text",
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2112200,
+            "question": "Có bao nhiêu số tiền điện tiết kiệm trên 750 triệu đồng?",
+            "image_url": "https://i.postimg.cc/0jW5CwBv/1122.jpg ",
+            "image": "documents/1122.png",
+            "ocr_output_file": "ocr_results/1122.json",
+            "answers": [
+                "5"
+            ],
+            "question_types": [
+                "Figure",
+                "Sorting",
+                "Non-extractive"
+            ]
+        },
+        {
+            "questionId": 2183500,
+            "question": "Từ năm 2019 đến 2023 dự báo GDP tăng thêm của Việt Nam là bao nhiêu?",
+            "image_url": "https://i.postimg.cc/9MkNtXYS/1835.jpg ",
+            "image": "documents/1835.png",
+            "ocr_output_file": "ocr_results/1835.json",
+            "answers": [
+                "2,96%"
+            ],
+            "question_types": [
+                "Non-extractive",
+                "Figure",
+                "Arithmetic"
+            ]
+        },
+        {
+            "questionId": 2572000,
+            "question": "Việt Nam xuất khẩu những loại sản phẩm nào?",
+            "image_url": "https://i.postimg.cc/fRMH0Wtw/5720.jpg",
+            "image": "documents/5720.png",
+            "ocr_output_file": "ocr_results/5720.json",
+            "answers": [
+                "Thủy sản, Cà phê, Gạo, Túi xách, ví, vali, mũ, ô, dù, Gỗ và sản phẩm gỗ"
+            ],
+            "question_types": [
+                "Text",
+                "Multi-Span"
+            ]
+        },
+        {
+            "questionId": 2512900,
+            "question": "Lượng đá và kim loại dùng để xây cầu Long Biên?",
+            "image_url": "https://i.postimg.cc/yYygW7CX/5129.jpg",
+            "image": "documents/5129.png",
+            "ocr_output_file": "ocr_results/5129.json",
+            "answers": [
+                "30 000 mét khối "
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2244400,
+            "question": "số lượng khách du lịch vào năm 2016 là bao nhiêu?",
+            "image_url": "https://i.postimg.cc/NjhSzxr0/2444.jpg",
+            "image": "documents/2444.png",
+            "ocr_output_file": "ocr_results/2444.json",
+            "answers": [
+                "10.012.735 du khách "
+            ],
+            "question_types": [
+                "Text",
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2035501,
+            "question": "Có bao nhiêu nhóm đối tượng được ưu tiên tiêm vắc xin phòng COVID-19 tại Việt Nam?",
+            "image_url": "https://i.postimg.cc/ryt4wy3H/0355.jpg",
+            "image": "documents/0355.png",
+            "ocr_output_file": "ocr_results/0355.json",
+            "answers": [
+                "11"
+            ],
+            "question_types": [
+                "Count",
+                "Figure"
+            ]
+        },
+        {
+            "questionId": 2049400,
+            "question": "Có bao nhiêu vấn đề xã hội được đề cập?",
+            "image_url": "https://i.postimg.cc/Y0kt7xJM/0494.jpg",
+            "image": "documents/0494.png",
+            "ocr_output_file": "ocr_results/0494.json",
+            "answers": [
+                "có 7 vấn đề"
+            ],
+            "question_types": [
+                "Count",
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2074900,
+            "question": "Số chai nhựa ở Na Uy được tái chế chiếm bao nhiêu phần trăm?",
+            "image_url": "https://i.postimg.cc/T1Wn8TMZ/0749.jpg",
+            "image": "documents/0749.png",
+            "ocr_output_file": "ocr_results/0749.json",
+            "answers": [
+                "97%"
+            ],
+            "question_types": [
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2482501,
+            "question": "Một trong các ý nghĩa là gì?",
+            "image_url": "https://i.postimg.cc/nrw4WZVD/4825.png",
+            "image": "documents/4825.png",
+            "ocr_output_file": "ocr_results/4825.json",
+            "answers": [
+                "Góp phần nâng cao vị thế, uy tín của Việt Nam trong giải quyết các vấn đề quốc tế",
+                "Khẳng đinh Việt Nam là thành viên có trách nhiệm của cộng đồng quốc tế"
+            ],
+            "question_types": [
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2184200,
+            "question": "Có bao nhiêu hội thảo chuyên đề ?",
+            "image_url": "https://i.postimg.cc/9MvHXYKr/1842.jpg ",
+            "image": "documents/1842.png",
+            "ocr_output_file": "ocr_results/1842.json",
+            "answers": [
+                "4"
+            ],
+            "question_types": [
+                "Non-extractive",
+                "Figure",
+                "Count"
+            ]
+        },
+        {
+            "questionId": 2040600,
+            "question": "Thời gian chậm nhất để tiến hành rà xoát, xét nghiệm và báo cáo là?",
+            "image_url": "https://i.postimg.cc/6qdTLqN5/0406.jpg",
+            "image": "documents/0406.png",
+            "ocr_output_file": "ocr_results/0406.json",
+            "answers": [
+                "Vào ngày 17/5/2021"
+            ],
+            "question_types": [
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2184600,
+            "question": "Năm 2011 hơn năm 2016 bao nhiêu hộ nông thôn nông, lâm nghiệp và thủy sản ?",
+            "image_url": "https://i.postimg.cc/qR2jncgt/1846.jpg ",
+            "image": "documents/1846.png",
+            "ocr_output_file": "ocr_results/1846.json",
+            "answers": [
+                "0,97"
+            ],
+            "question_types": [
+                "Non-extractive",
+                "Figure",
+                "Arithmetic"
+            ]
+        },
+        {
+            "questionId": 2112400,
+            "question": "Vịnh nào có diện tích nhiều nhất ?",
+            "image_url": "https://i.postimg.cc/NFMBL0fz/1124.jpg ",
+            "image": "documents/1124.png",
+            "ocr_output_file": "ocr_results/1124.json",
+            "answers": [
+                "Vịnh Vân Phong"
+            ],
+            "question_types": [
+                "Image span",
+                "Figure",
+                "Sorting"
+            ]
+        },
+        {
+            "questionId": 2034400,
+            "question": "Màu xanh lam trong biểu đồ biểu thị cho nhóm người nào?",
+            "image_url": "https://i.postimg.cc/xdTHfvVG/0344.jpg",
+            "image": "documents/0344.png",
+            "ocr_output_file": "ocr_results/0344.json",
+            "answers": [
+                "Bình phục"
+            ],
+            "question_types": [
+                "Visual/Layout"
+            ]
+        },
+        {
+            "questionId": 2245900,
+            "question": "Nơi nào thuộc top điểm đến mới nổi?",
+            "image_url": "https://i.postimg.cc/5NcWhJh1/2459.jpg",
+            "image": "documents/2459.png",
+            "ocr_output_file": "ocr_results/2459.json",
+            "answers": [
+                "PHÚ QUỐC"
+            ],
+            "question_types": [
+                "Text",
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2278701,
+            "question": "Trong không khí anilin bị oxi hóa chuyển sang màu gì ?",
+            "image_url": "https://i.postimg.cc/gj1z56vP/2787.jpg",
+            "image": "documents/2787.png",
+            "ocr_output_file": "ocr_results/2787.json",
+            "answers": [
+                "đen",
+                "Đen"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2440100,
+            "question": "Hà Nội đứng sau địa phương nào về số lượng doanh nghiệp?",
+            "image_url": "https://i.postimg.cc/cLmX0qJr/4401.jpg",
+            "image": "documents/4401.png",
+            "ocr_output_file": "ocr_results/4401.json",
+            "answers": [
+                "TP. Hồ Chí Minh"
+            ],
+            "question_types": [
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2562400,
+            "question": "Amin được chia làm mấy bậc?",
+            "image_url": "https://i.postimg.cc/0jJYhFzX/5624.png",
+            "image": "documents/5624.png",
+            "ocr_output_file": "ocr_results/5624.json",
+            "answers": [
+                "3 "
+            ],
+            "question_types": [
+                "Counting"
+            ]
+        },
+        {
+            "questionId": 2508300,
+            "question": "Chiến dịch PR của Edward Bernays là gì?",
+            "image_url": "https://i.postimg.cc/3wcD795s/5083.jpg",
+            "image": "documents/5083.png",
+            "ocr_output_file": "ocr_results/5083.json",
+            "answers": [
+                "Ông khảo sát 5000 bác sĩ để chứng minh lượng protein nhận được từ bữa sáng gồm trứng và thịt xông khói là chìa khóa cho sức khỏe"
+            ],
+            "question_types": [
+                "Text",
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2647200,
+            "question": "Nước có phải lĩnh vực hỗ trợ trong DN có dự án nông nghiệp ứng dụng CNC không?",
+            "image_url": "https://i.postimg.cc/2jZbn4hw/6472.jpg",
+            "image": "documents/6472.png",
+            "ocr_output_file": "ocr_results/6472.json",
+            "answers": [
+                "Có"
+            ],
+            "question_types": [
+                "Question span"
+            ]
+        },
+        {
+            "questionId": 2122600,
+            "question": "Đối tượng ngụ tại đâu?",
+            "image_url": "https://i.postimg.cc/NMvLSQM9/1226.png",
+            "image": "documents/1226.png",
+            "ocr_output_file": "ocr_results/1226.json",
+            "answers": [
+                "Ngụ tại xã Tân Thạnh Đông, huyện Củ Chi, TP HCM"
+            ],
+            "question_types": [
+                "Image span",
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2438000,
+            "question": "Mục tiêu đến năm 2025 diện tích đất trồng trọt hữu cơ là bao nhiêu?",
+            "image_url": "https://i.postimg.cc/02P4sNyY/4380.jpg",
+            "image": "documents/4380.png",
+            "ocr_output_file": "ocr_results/4380.json",
+            "answers": [
+                "1%"
+            ],
+            "question_types": [
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2494400,
+            "question": "Ai là người trúng được 564 triệu USD?",
+            "image_url": "https://i.postimg.cc/h4J1Jz28/4944.jpg",
+            "image": "documents/4944.png",
+            "ocr_output_file": "ocr_results/4944.json",
+            "answers": [
+                "Người mẹ đơn thân Marie Holmes"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2452800,
+            "question": "Tỷ lệ áp dụng máy móc, thiết bị trong sản xuất tăng bao nhiêu phần trăm?",
+            "image_url": "https://i.postimg.cc/8CZvjtRk/4528.png",
+            "image": "documents/4528.png",
+            "ocr_output_file": "ocr_results/4528.json",
+            "answers": [
+                "1-2%"
+            ],
+            "question_types": [
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2439700,
+            "question": "Có bao nhiêu doanh nghiệp giải thể?",
+            "image_url": "https://i.postimg.cc/X7CRVPfW/4397.jpg",
+            "image": "documents/4397.png",
+            "ocr_output_file": "ocr_results/4397.json",
+            "answers": [
+                "11536"
+            ],
+            "question_types": [
+                "Figure"
+            ]
+        },
+        {
+            "questionId": 2188001,
+            "question": "Vốn NS cấp Xã là bao nhiêu?",
+            "image_url": "https://i.postimg.cc/tCkv2zkW/1880.jpg",
+            "image": "documents/1880.png",
+            "ocr_output_file": "ocr_results/1880.json",
+            "answers": [
+                "291,1 tỷ đồng"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2107300,
+            "question": "Di sản nào có diện tích ít nhất nằm ở đâu?",
+            "image_url": "https://i.postimg.cc/sg1QbVYK/1073.jpg ",
+            "image": "documents/1073.png",
+            "ocr_output_file": "ocr_results/1073.json",
+            "answers": [
+                "Bắc Kạn"
+            ],
+            "question_types": [
+                "Image span",
+                "Map",
+                "Sorting"
+            ]
+        },
+        {
+            "questionId": 2432300,
+            "question": "Ngành chế biến có chỉ số sản xuất công nhiệp tăng bao nhiêu trong 4 tháng so với cùng kỳ năm 2020?",
+            "image_url": "https://i.postimg.cc/xCg034sh/4323.jpg",
+            "image": "documents/4323.png",
+            "ocr_output_file": "ocr_results/4323.json",
+            "answers": [
+                "12,7%"
+            ],
+            "question_types": [
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2574300,
+            "question": "Phụ nữ có trung bình bao nhiêu năm sống trong bệnh tật?",
+            "image_url": "https://i.postimg.cc/q75QY8mR/5743.jpg",
+            "image": "documents/5743.png",
+            "ocr_output_file": "ocr_results/5743.json",
+            "answers": [
+                "11 năm"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2185001,
+            "question": "Từ năm 1995 đến 2010, quy mô nền kinh tế tăng bao nhiêu lần ?",
+            "image_url": "https://i.postimg.cc/0jDRzJ1Z/1850.jpg ",
+            "image": "documents/1850.png",
+            "ocr_output_file": "ocr_results/1850.json",
+            "answers": [
+                "5.32"
+            ],
+            "question_types": [
+                "Non-extractive",
+                "Figure",
+                "Arithmetic"
+            ]
+        },
+        {
+            "questionId": 2630100,
+            "question": "Nền tảng để thương mại điện tử tạo ra doanh số bao nhiêu trong năm 2017 ?",
+            "image_url": "https://i.postimg.cc/4x5Xz3Ww/6301.jpg",
+            "image": "documents/6301.png",
+            "ocr_output_file": "ocr_results/6301.json",
+            "answers": [
+                "4 tỷ USD"
+            ],
+            "question_types": [
+                "Image span",
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2529900,
+            "question": "Xu thế thứ sáu của thế giới sau chiến tranh lạnh là gì?",
+            "image_url": "https://i.postimg.cc/TYpF33DB/5299.jpg",
+            "image": "documents/5299.png",
+            "ocr_output_file": "ocr_results/5299.json",
+            "answers": [
+                "Xu thế toàn cầu hóa diễn ra ngày càng mạnh mẽ."
+            ],
+            "question_types": [
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2482400,
+            "question": "Giành chính quyền ở Hà Nội diễn ra vào thời gian nào?",
+            "image_url": "https://i.postimg.cc/CxnNWZqL/4824.jpg",
+            "image": "documents/4824.png",
+            "ocr_output_file": "ocr_results/4824.json",
+            "answers": [
+                "Tối 19.8.1945"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2504700,
+            "question": "Chủ tịch Fidel Castro đã tới thăm tỉnh thành nào?",
+            "image_url": "https://i.postimg.cc/c4ywrDgZ/5047.jpg",
+            "image": "documents/5047.png",
+            "ocr_output_file": "ocr_results/5047.json",
+            "answers": [
+                "Thủ đô Hà Nội và Quảng Trị"
+            ],
+            "question_types": [
+                "Text",
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2095100,
+            "question": "Đất nông nghiệp chiếm bao nhiêu %?",
+            "image_url": "https://i.postimg.cc/VvR0PvZZ/0951.jpg ",
+            "image": "documents/0951.png",
+            "ocr_output_file": "ocr_results/0951.json",
+            "answers": [
+                "9,08%"
+            ],
+            "question_types": [
+                "Image span",
+                "Figure"
+            ]
+        },
+        {
+            "questionId": 2244500,
+            "question": "Các điểm tham quan ở Cửa lò là gì?",
+            "image_url": "https://i.postimg.cc/ht96W791/2445.jpg",
+            "image": "documents/2445.png",
+            "ocr_output_file": "ocr_results/2445.json",
+            "answers": [
+                "Đảo Lan Châu",
+                "Đào Hòn Ngư",
+                "Khu du lịch sinh thái Song Ngư Sơn",
+                "Bến cá Nghi Thủy"
+            ],
+            "question_types": [
+                "Multi-Span"
+            ]
+        },
+        {
+            "questionId": 2577500,
+            "question": "Singapore có cơ cấu đầu tư là bao nhiêu?",
+            "image_url": "https://i.postimg.cc/jdbcGqhz/5775.jpg",
+            "image": "documents/5775.png",
+            "ocr_output_file": "ocr_results/5775.json",
+            "answers": [
+                "4,85 tỷ USD"
+            ],
+            "question_types": [
+                "Figure",
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2529600,
+            "question": "Nguyễn Tất Thành sang châu Âu tìm đường cứu nước vào năm nào?",
+            "image_url": "https://i.postimg.cc/bJp4y0xR/5296.jpg",
+            "image": "documents/5296.png",
+            "ocr_output_file": "ocr_results/5296.json",
+            "answers": [
+                "5/6/1911"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2122601,
+            "question": "Tên thật của Tuấn \"Khỉ\" là?",
+            "image_url": "https://i.postimg.cc/NMvLSQM9/1226.png",
+            "image": "documents/1226.png",
+            "ocr_output_file": "ocr_results/1226.json",
+            "answers": [
+                "Lê Quốc Tuấn"
+            ],
+            "question_types": [
+                "Text",
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2642900,
+            "question": "Sản lượng thịt trâu xuất chuồng quý I/2021 là bao nhiêu nghìn tấn?",
+            "image_url": "https://i.postimg.cc/qBjcZczd/6429.jpg",
+            "image": "documents/6429.png",
+            "ocr_output_file": "ocr_results/6429.json",
+            "answers": [
+                "32.2"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2145500,
+            "question": "Có bao nhiêu em học sinh đạt giả tại kỳ thi chọn học sinh giỏi Quốc gia THPT lớp 12 năm 2020?",
+            "image_url": "https://i.postimg.cc/nhf5X5CK/1455.jpg",
+            "image": "documents/1455.png",
+            "ocr_output_file": "ocr_results/1455.json",
+            "answers": [
+                "46"
+            ],
+            "question_types": [
+                "Image span",
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2284601,
+            "question": "Ngành chăn nuôi bị thiệt hại do dịch tả lợn ở đâu?",
+            "image_url": "https://i.postimg.cc/2SVJyKRT/2846.jpg",
+            "image": "documents/2846.png",
+            "ocr_output_file": "ocr_results/2846.json",
+            "answers": [
+                "châu Phi"
+            ],
+            "question_types": []
+        },
+        {
+            "questionId": 2561301,
+            "question": "Có bao nhiêu loài động vật thuộc mức nguy cấp?",
+            "image_url": "https://i.postimg.cc/h4JNSGx6/5613.jpg",
+            "image": "documents/5613.png",
+            "ocr_output_file": "ocr_results/5613.json",
+            "answers": [
+                "4314"
+            ],
+            "question_types": [
+                "Table/List"
+            ]
+        },
+        {
+            "questionId": 2529901,
+            "question": "Xu thế thứ tư của thế giới sau chiến tranh lạnh là gì?",
+            "image_url": "https://i.postimg.cc/TYpF33DB/5299.jpg",
+            "image": "documents/5299.png",
+            "ocr_output_file": "ocr_results/5299.json",
+            "answers": [
+                "Các nước lớn điều chỉnh quan hệ theo hướng đối thoại, thỏa hiệp, tránh xung đột trực tiếp."
+            ],
+            "question_types": [
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2034300,
+            "question": "Việc cách ly y tế phải chấp hành quy định, nội quy của cơ sở nào?",
+            "image_url": "https://i.postimg.cc/cLWwjqDb/0343.jpg",
+            "image": "documents/0343.png",
+            "ocr_output_file": "ocr_results/0343.json",
+            "answers": [
+                "Cơ sở cách ly"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2460801,
+            "question": "Mức tăng tháng 12 ở năm nào là nhỏ nhất?",
+            "image_url": "https://i.postimg.cc/qBYppYFB/4608.png",
+            "image": "documents/4608.png",
+            "ocr_output_file": "ocr_results/4608.json",
+            "answers": [
+                "Năm 2013",
+                "2013"
+            ],
+            "question_types": [
+                "Sorting",
+                "Figure"
+            ]
+        },
+        {
+            "questionId": 2641800,
+            "question": "Có bao nhiêu mặt hàng xuất khẩu giảm so với nông sản chủ lực?",
+            "image_url": "https://i.postimg.cc/pL9Bj9VM/6418.jpg",
+            "image": "documents/6418.png",
+            "ocr_output_file": "ocr_results/6418.json",
+            "answers": [
+                "3"
+            ],
+            "question_types": [
+                "Figure",
+                "Count"
+            ]
+        },
+        {
+            "questionId": 2207300,
+            "question": "Tổng kim ngạch hàng hoá xuất khẩu đạt bao nhiêu tỷ USD?",
+            "image_url": "https://i.postimg.cc/7ZY0DFzt/2073.png",
+            "image": "documents/2073.png",
+            "ocr_output_file": "ocr_results/2073.json",
+            "answers": [
+                "244,72"
+            ],
+            "question_types": [
+                "Text",
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2075900,
+            "question": "Suối Bang nóng nhất Việt Nam có nhiệt độ là bao nhiêu?",
+            "image_url": "https://i.postimg.cc/j5BZngsY/0759.jpg",
+            "image": "documents/0759.png",
+            "ocr_output_file": "ocr_results/0759.json",
+            "answers": [
+                "105 độ"
+            ],
+            "question_types": [
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2103000,
+            "question": "Bức ảnh đề cập đến nội dung gì?",
+            "image_url": "https://i.postimg.cc/FR0JGDy4/1030.jpg ",
+            "image": "documents/1030.png",
+            "ocr_output_file": "ocr_results/1030.json",
+            "answers": [
+                "DIỆN TÍCH RỪNG BỊ THIỆT HẠI 10 NĂM QUA"
+            ],
+            "question_types": [
+                "Image span",
+                "Figure"
+            ]
+        },
+        {
+            "questionId": 2190801,
+            "question": "Thu thập thông tin giai đoạn 2 mất bao nhiêu ngày?",
+            "image_url": "https://i.postimg.cc/HkJ0X0hp/1908.jpg",
+            "image": "documents/1908.png",
+            "ocr_output_file": "ocr_results/1908.json",
+            "answers": [
+                "30",
+                "30 ngày"
+            ],
+            "question_types": [
+                "Arithmetic"
+            ]
+        },
+        {
+            "questionId": 2273700,
+            "question": "Tỉ lệ phụ nữ mang thai bị thiếu i-ốt?",
+            "image_url": "https://i.postimg.cc/QdT9Xjtb/2737.jpg",
+            "image": "documents/2737.png",
+            "ocr_output_file": "ocr_results/2737.json",
+            "answers": [
+                "77,7%"
+            ],
+            "question_types": [
+                "Image span",
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2208000,
+            "question": "Có bao nhiêu doanh nghiệp thành lập mới?",
+            "image_url": "https://i.postimg.cc/XJFyQ4Mq/2080.png",
+            "image": "documents/2080.png",
+            "ocr_output_file": "ocr_results/2080.json",
+            "answers": [
+                "87448"
+            ],
+            "question_types": [
+                "Image span",
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2245800,
+            "question": "Chi phí tu bổ Đại nội Huế là bao nhiêu?",
+            "image_url": "https://i.postimg.cc/1tfZQ3RR/2458.jpg",
+            "image": "documents/2458.png",
+            "ocr_output_file": "ocr_results/2458.json",
+            "answers": [
+                "1 TRIỆU USD"
+            ],
+            "question_types": [
+                "Image span",
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2633200,
+            "question": "Sản phẩm công nghiệp nào có tốc độ giảm cao nhất trong 10 tháng năm 2020 so với cùng kỳ năm trước ?",
+            "image_url": "https://i.postimg.cc/9X7VLbxD/6332.jpg",
+            "image": "documents/6332.png",
+            "ocr_output_file": "ocr_results/6332.json",
+            "answers": [
+                "Ôtô (giảm 9,2%)"
+            ],
+            "question_types": [
+                "Image span",
+                "Sorting",
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2192700,
+            "question": "GRDP 6 tháng đầu năm 2018?",
+            "image_url": "https://i.postimg.cc/nL4DG3Yt/1927.png",
+            "image": "documents/1927.png",
+            "ocr_output_file": "ocr_results/1927.json",
+            "answers": [
+                "7,07%"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2530700,
+            "question": "Đảng Cộng sản Việt Nam ra đời là thành quả của?",
+            "image_url": "https://i.postimg.cc/wjY2YqcX/5307.png",
+            "image": "documents/5307.png",
+            "ocr_output_file": "ocr_results/5307.json",
+            "answers": [
+                "sự kết hợp chủ nghĩa Mác-Lênin với phong trào công nhân và phong trào yêu nước Việt Nam."
+            ],
+            "question_types": [
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2502500,
+            "question": "Vào thế kỷ XVI-XVIII tôn giáo mới nào xuất hiện?",
+            "image_url": "https://i.postimg.cc/BZ12ZWvM/5025.jpg",
+            "image": "documents/5025.png",
+            "ocr_output_file": "ocr_results/5025.json",
+            "answers": [
+                "Thiên chúa giáo "
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2196100,
+            "question": "Nhật Bản là đối tác thương mại lớn thứ mấy của Việt Nam?",
+            "image_url": "https://i.postimg.cc/c4vtbxMh/1961.png",
+            "image": "documents/1961.png",
+            "ocr_output_file": "ocr_results/1961.json",
+            "answers": [
+                "4"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2625300,
+            "question": "Vốn đầu tư thực hiện từ nguồn ngân sách nhà nước là bao nhiêu ?",
+            "image_url": "https://i.postimg.cc/ZK6b5H3G/6253.jpg",
+            "image": "documents/6253.png",
+            "ocr_output_file": "ocr_results/6253.json",
+            "answers": [
+                "23.233 tỷ đồng"
+            ],
+            "question_types": [
+                "Image span",
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2522801,
+            "question": "Có tổng cộng bao nhiêu đại biểu tham gia bầu cử tại đại hội bầu BCH đảng lần thứ XII?",
+            "image_url": "https://i.postimg.cc/nrZVtQr8/5228.jpg",
+            "image": "documents/5228.png",
+            "ocr_output_file": "ocr_results/5228.json",
+            "answers": [
+                "1510 đại biểu"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2460000,
+            "question": "Các động lực chính cho Cách mạng công nghiệp 4.0 là gì?",
+            "image_url": "https://i.postimg.cc/Y0j2dByZ/4600.jpg ",
+            "image": "documents/4600.png",
+            "ocr_output_file": "ocr_results/4600.json",
+            "answers": [
+                "vật lý/ hữu hình, kỹ thuật số, sinh học"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2598801,
+            "question": "Có bao nhiêu lợi ích?",
+            "image_url": "https://i.postimg.cc/YqCG4Jr5/5988.jpg",
+            "image": "documents/5988.png",
+            "ocr_output_file": "ocr_results/5988.json",
+            "answers": [
+                "5"
+            ],
+            "question_types": [
+                "Count"
+            ]
+        },
+        {
+            "questionId": 2561302,
+            "question": "Có bao nhiêu loài thực vật thuộc mức nguy cấp?",
+            "image_url": "https://i.postimg.cc/h4JNSGx6/5613.jpg",
+            "image": "documents/5613.png",
+            "ocr_output_file": "ocr_results/5613.json",
+            "answers": [
+                "4123"
+            ],
+            "question_types": [
+                "Table/List"
+            ]
+        },
+        {
+            "questionId": 2530400,
+            "question": "Phiên bản đầu tiên của sushi có từ năm nào?",
+            "image_url": "https://i.postimg.cc/0yGf8TcL/5304.png",
+            "image": "documents/5304.png",
+            "ocr_output_file": "ocr_results/5304.json",
+            "answers": [
+                "3500 TCN"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2640000,
+            "question": "Nhóm hàng xuất khẩu nào tăng tỉ trọng nhiều nhất so với cùng kì năm ngoái ?",
+            "image_url": "https://i.postimg.cc/brTmm44X/6400.jpg",
+            "image": "documents/6400.png",
+            "ocr_output_file": "ocr_results/6400.json",
+            "answers": [
+                "Lâm sản chính"
+            ],
+            "question_types": [
+                "Image span",
+                "Figure",
+                "Sorting"
+            ]
+        },
+        {
+            "questionId": 2056800,
+            "question": "Người cách ly có cần cam kết với chính quyền địa phương không?",
+            "image_url": "https://i.postimg.cc/B64zQwQY/0568.jpg",
+            "image": "documents/0568.png",
+            "ocr_output_file": "ocr_results/0568.json",
+            "answers": [
+                "Có"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2456000,
+            "question": "Ngành nào có chỉ số phát triển cao nhất?",
+            "image_url": "https://i.postimg.cc/DyQcPVLB/4560.png",
+            "image": "documents/4560.png",
+            "ocr_output_file": "ocr_results/4560.json",
+            "answers": [
+                "Ngành sản xuất và phân phối điện",
+                "Sản xuất và phân phối điện"
+            ],
+            "question_types": [
+                "Sorting",
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2590200,
+            "question": "Có bao nhiêu phương án?",
+            "image_url": "https://i.postimg.cc/zXxh0q2D/5902.png",
+            "image": "documents/5902.png",
+            "ocr_output_file": "ocr_results/5902.json",
+            "answers": [
+                "2"
+            ],
+            "question_types": [
+                "Count",
+                "Map"
+            ]
+        },
+        {
+            "questionId": 2585000,
+            "question": "Bao nhiêu phần trăm giá bán sản phẩm?",
+            "image_url": "https://i.postimg.cc/nrY4H71q/5850.jpg",
+            "image": "documents/5850.png",
+            "ocr_output_file": "ocr_results/5850.json",
+            "answers": [
+                "70%"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2242800,
+            "question": "Cụm từ WC có nghĩa là gì?",
+            "image_url": "https://i.postimg.cc/jSP0x1rN/2428.jpg",
+            "image": "documents/2428.png",
+            "ocr_output_file": "ocr_results/2428.json",
+            "answers": [
+                "Water Closet"
+            ],
+            "question_types": [
+                "Text",
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2601200,
+            "question": "Tổng thu bao nhiêu nghìn tỷ đồng?",
+            "image_url": "https://i.postimg.cc/tg3Cv5Rd/6012.jpg",
+            "image": "documents/6012.png",
+            "ocr_output_file": "ocr_results/6012.json",
+            "answers": [
+                "781"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2458300,
+            "question": "COVID-19 tác động như thế nào đến ngành hàng không?",
+            "image_url": "https://i.postimg.cc/C1B67vsJ/4583.jpg",
+            "image": "documents/4583.png",
+            "ocr_output_file": "ocr_results/4583.json",
+            "answers": [
+                "Ngành hàng không đối mặt với suy giảm tồi tệ nhất lịch sử"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2115400,
+            "question": "Địa danh nào được 2 lần công nhận là Di sản thiên nhiên thế giới ? ",
+            "image_url": "https://i.postimg.cc/nznHb28Z/1154.jpg ",
+            "image": "documents/1154.png",
+            "ocr_output_file": "ocr_results/1154.json",
+            "answers": [
+                "Vịnh Hạ Long"
+            ],
+            "question_types": [
+                "Image span",
+                "Figure"
+            ]
+        },
+        {
+            "questionId": 2528701,
+            "question": "Chủ tịch Hồ Chí Minh bị giam giữ ở đâu?",
+            "image_url": "https://i.postimg.cc/25pPJN3M/5287.jpg",
+            "image": "documents/5287.png",
+            "ocr_output_file": "ocr_results/5287.json",
+            "answers": [
+                "Hồng Kông"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2108000,
+            "question": "Việt năm tham gia GMS năm nào ?",
+            "image_url": "https://i.postimg.cc/zvJ375DC/1080.jpg ",
+            "image": "documents/1080.png",
+            "ocr_output_file": "ocr_results/1080.json",
+            "answers": [
+                "1992"
+            ],
+            "question_types": [
+                "Image span",
+                "Figure"
+            ]
+        },
+        {
+            "questionId": 2275801,
+            "question": "Việt Nam gắn liền với lục địa nào ?",
+            "image_url": "https://i.postimg.cc/vB3DPBqQ/2758.jpg",
+            "image": "documents/2758.png",
+            "ocr_output_file": "ocr_results/2758.json",
+            "answers": [
+                "Á-Âu"
+            ],
+            "question_types": [
+                "Map"
+            ]
+        },
+        {
+            "questionId": 2530200,
+            "question": "\"Quốc tế hiến chương các nhà giáo\" là ngày nào?",
+            "image_url": "https://i.postimg.cc/zXb21Pmr/5302.jpg",
+            "image": "documents/5302.png",
+            "ocr_output_file": "ocr_results/5302.json",
+            "answers": [
+                "ngày 20 tháng 11 năm 1958"
+            ],
+            "question_types": [
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2454600,
+            "question": "Tại sao tốc độ tăng giá trị ngành khai khoáng giảm sâu?",
+            "image_url": "https://i.postimg.cc/1XkwyXpp/4546.jpg",
+            "image": "documents/4546.png",
+            "ocr_output_file": "ocr_results/4546.json",
+            "answers": [
+                "Do khai thác dầu, khí đốt giảm mạnh"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2626400,
+            "question": "Hà Nội giảm bao nhiêu phòng thuộc sở trong giai đoạn 2015-2020",
+            "image_url": "https://i.postimg.cc/FRz8kr6f/6264.jpg",
+            "image": "documents/6264.png",
+            "ocr_output_file": "ocr_results/6264.json",
+            "answers": [
+                "65 "
+            ],
+            "question_types": [
+                "Image span",
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2119300,
+            "question": "Giai đoạn chuyển tiếp sẽ kết thúc vào ngày nào?",
+            "image_url": "https://i.postimg.cc/pdwnvD0d/1193.jpg ",
+            "image": "documents/1193.png",
+            "ocr_output_file": "ocr_results/1193.json",
+            "answers": [
+                "31/12/2020"
+            ],
+            "question_types": [
+                "Text",
+                "Figure"
+            ]
+        },
+        {
+            "questionId": 2444500,
+            "question": "Lỗ thông gió được đặt ở đâu?",
+            "image_url": "https://i.postimg.cc/DzGVzMkL/4445.jpg",
+            "image": "documents/4445.png",
+            "ocr_output_file": "ocr_results/4445.json",
+            "answers": [
+                "Cạnh bên của máy"
+            ],
+            "question_types": [
+                "Question span"
+            ]
+        },
+        {
+            "questionId": 2425600,
+            "question": "Hoạt động giáo dục bắt buộc ở cả 3 cấp là?",
+            "image_url": "https://i.postimg.cc/h4pFyxSF/4256.jpg ",
+            "image": "documents/4256.png",
+            "ocr_output_file": "ocr_results/4256.json",
+            "answers": [
+                "Hoạt động trải nghiệm"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2191900,
+            "question": "Vốn thực hiện là bao nhiêu?",
+            "image_url": "https://i.postimg.cc/26xnr0Vx/1919.jpg",
+            "image": "documents/1919.png",
+            "ocr_output_file": "ocr_results/1919.json",
+            "answers": [
+                "9,1 tỷ USD"
+            ],
+            "question_types": [
+                "Text",
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2598400,
+            "question": "Không nộp hoặc không công khai báo cáo tài chính thì phạt như thế nào?",
+            "image_url": "https://i.postimg.cc/vmfcFyhV/5984.png",
+            "image": "documents/5984.png",
+            "ocr_output_file": "ocr_results/5984.json",
+            "answers": [
+                "Từ 40 đến 50 triệu"
+            ],
+            "question_types": [
+                "Text",
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2122602,
+            "question": "Nghi phạm đã giết bao nhiêu người?",
+            "image_url": "https://i.postimg.cc/NMvLSQM9/1226.png",
+            "image": "documents/1226.png",
+            "ocr_output_file": "ocr_results/1226.json",
+            "answers": [
+                "5"
+            ],
+            "question_types": [
+                "Count",
+                "Text",
+                "Figure"
+            ]
+        },
+        {
+            "questionId": 2302300,
+            "question": "Số thí sinh đăng ký NV1 vào Trường THPT KIM LIÊN là bao nhiêu?",
+            "image_url": "https://i.postimg.cc/VNNjm3xL/3023.jpg",
+            "image": "documents/3023.png",
+            "ocr_output_file": "ocr_results/3023.json",
+            "answers": [
+                "1484",
+                "1.484"
+            ],
+            "question_types": [
+                "Figure"
+            ]
+        },
+        {
+            "questionId": 2107200,
+            "question": "Suối Ba Hồ bắt nguồn từ đâu ?",
+            "image_url": "https://i.postimg.cc/0y3MsLZv/1072.jpg ",
+            "image": "documents/1072.png",
+            "ocr_output_file": "ocr_results/1072.json",
+            "answers": [
+                "đầu nguồn"
+            ],
+            "question_types": [
+                "Image span",
+                "Figure"
+            ]
+        },
+        {
+            "questionId": 2037701,
+            "question": "Số lượng khác đến Việt Nam giảm bao nhiêu phần trăm?",
+            "image_url": "https://i.postimg.cc/sDmgVtj8/0377.jpg",
+            "image": "documents/0377.png",
+            "ocr_output_file": "ocr_results/0377.json",
+            "answers": [
+                "55.8%",
+                "55,8%"
+            ],
+            "question_types": [
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2043300,
+            "question": "Theo số liệu bên, miền nam mắc bao nhiêu ca từ 25/7 đến 9/8?",
+            "image_url": "https://i.postimg.cc/D0KwZhbV/0433.jpg",
+            "image": "documents/0433.png",
+            "ocr_output_file": "ocr_results/0433.json",
+            "answers": [
+                "10"
+            ],
+            "question_types": [
+                "Arithmetic"
+            ]
+        },
+        {
+            "questionId": 2600800,
+            "question": "Hiệp hội ngân hàng đề xuất giảm bao nhiêu cước tin nhắn cho dịch vụ tài chính ngân hàng?",
+            "image_url": "https://i.postimg.cc/9f5QBS2F/6008.jpg",
+            "image": "documents/6008.png",
+            "ocr_output_file": "ocr_results/6008.json",
+            "answers": [
+                "50%"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2526301,
+            "question": "Thủ tướng Chính phủ đã ra quyết định chính thức về việc tổ chức Ngày hội truyền thống của ngành Thủy sản vào ngày 1-4 hằng năm vào thời gian nào?",
+            "image_url": "https://i.postimg.cc/VkS8pFgr/5263.jpg",
+            "image": "documents/5263.png",
+            "ocr_output_file": "ocr_results/5263.json",
+            "answers": [
+                "19/3/1995"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2463600,
+            "question": "Loại thiên tai nào chiếm tỉ lệ cao nhất trong giai đoạn 1998 - 2017?",
+            "image_url": "https://i.postimg.cc/Qdj8z7Pc/4636.png",
+            "image": "documents/4636.png",
+            "ocr_output_file": "ocr_results/4636.json",
+            "answers": [
+                "Lũ"
+            ],
+            "question_types": [
+                "Figure",
+                "Table/List"
+            ]
+        },
+        {
+            "questionId": 2207200,
+            "question": "Chỉ tiêu tăng trưởng GDP năm 2019 đạt bao nhiêu phần trăm?",
+            "image_url": "https://i.postimg.cc/Qdt9vpLR/2072.png",
+            "image": "documents/2072.png",
+            "ocr_output_file": "ocr_results/2072.json",
+            "answers": [
+                "6,6-6,8",
+                "6,6-6,8%"
+            ],
+            "question_types": [
+                "Image span",
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2517800,
+            "question": "Từ năm nào vận động viên được trao huy chương trên bục?",
+            "image_url": "https://i.postimg.cc/yxXdJytY/5178.jpg",
+            "image": "documents/5178.png",
+            "ocr_output_file": "ocr_results/5178.json",
+            "answers": [
+                "1932"
+            ],
+            "question_types": [
+                "Text",
+                "Figure"
+            ]
+        },
+        {
+            "questionId": 2145600,
+            "question": "Mức độ tội phạm nào bị phạt số tiền 30 triệu?",
+            "image_url": "https://i.postimg.cc/63bgTpvT/1456.jpg",
+            "image": "documents/1456.png",
+            "ocr_output_file": "ocr_results/1456.json",
+            "answers": [
+                "Ít nghiêm trọng"
+            ],
+            "question_types": [
+                "Text",
+                "Figure"
+            ]
+        },
+        {
+            "questionId": 2456700,
+            "question": "Ngành nào có chỉ số tốc độ sản xuất công nghiệp nhanh nhất?",
+            "image_url": "https://i.postimg.cc/Nfxzf2Js/4567.png",
+            "image": "documents/4567.png",
+            "ocr_output_file": "ocr_results/4567.json",
+            "answers": [
+                "Chế biến, chế tạo",
+                "Ngành chế biến, chế tạo"
+            ],
+            "question_types": [
+                "Sorting"
+            ]
+        },
+        {
+            "questionId": 2529601,
+            "question": "Có bao nhiêu đầu sách về chủ tịch Hồ Chí Minh?",
+            "image_url": "https://i.postimg.cc/bJp4y0xR/5296.jpg",
+            "image": "documents/5296.png",
+            "ocr_output_file": "ocr_results/5296.json",
+            "answers": [
+                "3300"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2285200,
+            "question": "Hang Hom Sakonthawapi Rice có màu gì?",
+            "image_url": "https://i.postimg.cc/Z5dc1thk/2852.jpg",
+            "image": "documents/2852.png",
+            "ocr_output_file": "ocr_results/2852.json",
+            "answers": [
+                "vàng óng"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2208300,
+            "question": "Sản lượng thuỷ sản tăng trưởng bao nhiêu phần trăm so vo với cùng kỳ?",
+            "image_url": "https://i.postimg.cc/Gm58RHd9/2083.jpg",
+            "image": "documents/2083.png",
+            "ocr_output_file": "ocr_results/2083.json",
+            "answers": [
+                "2%",
+                "2"
+            ],
+            "question_types": [
+                "Text",
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2595800,
+            "question": "Có bao nhiêu bậc?",
+            "image_url": "https://i.postimg.cc/NjVHvpwW/5958.jpg",
+            "image": "documents/5958.png",
+            "ocr_output_file": "ocr_results/5958.json",
+            "answers": [
+                "7"
+            ],
+            "question_types": [
+                "Count"
+            ]
+        },
+        {
+            "questionId": 2364400,
+            "question": "Rau quả có nằm trong danh mục xuất khẩu của Việt Nam không?",
+            "image_url": "https://i.postimg.cc/d0QzvVQk/3644.jpg",
+            "image": "documents/3644.png",
+            "ocr_output_file": "ocr_results/3644.json",
+            "answers": [
+                "không"
+            ],
+            "question_types": [
+                "Question span"
+            ]
+        },
+        {
+            "questionId": 2023300,
+            "question": "Những năm 1880 sự kiện gì diễn ra liên quan tới bút mực?",
+            "image_url": "https://i.postimg.cc/RFpWVyL4/0233.jpg",
+            "image": "documents/0233.png",
+            "ocr_output_file": "ocr_results/0233.json",
+            "answers": [
+                "Sự sản xuất hàng loạt của bút mực"
+            ],
+            "question_types": [
+                "Text",
+                "Figure"
+            ]
+        },
+        {
+            "questionId": 2210000,
+            "question": "Tổng lượt khách quốc đế đến Việt Nam?",
+            "image_url": "https://i.postimg.cc/BQJ1crmZ/2100.jpg",
+            "image": "documents/2100.png",
+            "ocr_output_file": "ocr_results/2100.json",
+            "answers": [
+                "3.821 nghìn lượt"
+            ],
+            "question_types": [
+                "Image span",
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2523500,
+            "question": "Sự bùng nổ của content marketing diễn ra vào năm nào?",
+            "image_url": "https://i.postimg.cc/4xnfZGf3/5235.png",
+            "image": "documents/5235.png",
+            "ocr_output_file": "ocr_results/5235.json",
+            "answers": [
+                "Năm 2011"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2147200,
+            "question": "Luật an ninh mạng Việt Nam có hiệu lực từ thời gian nào?",
+            "image_url": "https://i.postimg.cc/pVhR8wX3/1472.png",
+            "image": "documents/1472.png",
+            "ocr_output_file": "ocr_results/1472.json",
+            "answers": [
+                "1/1/2019"
+            ],
+            "question_types": [
+                "Text",
+                "Figure"
+            ]
+        },
+        {
+            "questionId": 2466000,
+            "question": "Ta cần làm gì để phòng ngừa và hạn chế thiệt hại do lũ quét, lũ ống, sạt lỡ đất gây ra?",
+            "image_url": "https://i.postimg.cc/vTWyq8tP/4660.jpg",
+            "image": "documents/4660.png",
+            "ocr_output_file": "ocr_results/4660.json",
+            "answers": [
+                "Nâng cao ý thức người dân"
+            ],
+            "question_types": [
+                "Question span"
+            ]
+        },
+        {
+            "questionId": 2335800,
+            "question": "Bộ trưởng Tài chính là ai?",
+            "image_url": "https://i.postimg.cc/KjcbHDKV/3358.png",
+            "image": "documents/3358.png",
+            "ocr_output_file": "ocr_results/3358.json",
+            "answers": [
+                "Bà Janet Yellen",
+                "Janet Yellen"
+            ],
+            "question_types": [
+                "Text",
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2512901,
+            "question": "Số tiền đầu tư để xây cầu của Pháp?",
+            "image_url": "https://i.postimg.cc/yYygW7CX/5129.jpg",
+            "image": "documents/5129.png",
+            "ocr_output_file": "ocr_results/5129.json",
+            "answers": [
+                "6 200 000 đồng Franc"
+            ],
+            "question_types": [
+                "Text",
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2052200,
+            "question": "Vắc xin Moderna được WHO phê duyệt vào ngày nào?",
+            "image_url": "https://i.postimg.cc/jSW0G9Ly/0522.jpg",
+            "image": "documents/0522.png",
+            "ocr_output_file": "ocr_results/0522.json",
+            "answers": [
+                "30/4"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2065500,
+            "question": "Nhóm do ngân sách Nhà nước đóng chiếm tỷ lệ bao nhiêu?",
+            "image_url": "https://i.postimg.cc/bNWF2vw2/0655.jpg",
+            "image": "documents/0655.png",
+            "ocr_output_file": "ocr_results/0655.json",
+            "answers": [
+                "34,2%"
+            ],
+            "question_types": [
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2233000,
+            "question": "Khách du lịch đến từ Malaysia gấp bao nhiêu lần so với đến từ Lào?",
+            "image_url": "https://i.postimg.cc/5NjfVp0q/2330.jpg",
+            "image": "documents/2330.png",
+            "ocr_output_file": "ocr_results/2330.json",
+            "answers": [
+                "3"
+            ],
+            "question_types": [
+                "Arithmetic",
+                "Non-extractive"
+            ]
+        },
+        {
+            "questionId": 2522300,
+            "question": "Ngô Quyền xưng vương lập ra triều Ngô vào năm nào?",
+            "image_url": "https://i.postimg.cc/R06Z1ByY/5223.jpg",
+            "image": "documents/5223.png",
+            "ocr_output_file": "ocr_results/5223.json",
+            "answers": [
+                "Năm Kỷ Hợi 939"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2189800,
+            "question": "Tốc độ tăng DGP năm 2020 là bao nhiêu?",
+            "image_url": "https://i.postimg.cc/Vv14FSbK/1898.jpg",
+            "image": "documents/1898.png",
+            "ocr_output_file": "ocr_results/1898.json",
+            "answers": [
+                "2,91%",
+                "2.91%"
+            ],
+            "question_types": [
+                "Image span",
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2440400,
+            "question": "Công ty nào có công suất chở hàng cao nhất?",
+            "image_url": "https://i.postimg.cc/63hdLBxK/4404.jpg",
+            "image": "documents/4404.png",
+            "ocr_output_file": "ocr_results/4404.json",
+            "answers": [
+                "APM - Maersk"
+            ],
+            "question_types": [
+                "Figure"
+            ]
+        },
+        {
+            "questionId": 2513400,
+            "question": "Tòa tháp cao nhất Bắc Mỹ là?",
+            "image_url": "https://i.postimg.cc/GtkBFC8R/5134.jpg",
+            "image": "documents/5134.png",
+            "ocr_output_file": "ocr_results/5134.json",
+            "answers": [
+                "Gran Torre Santiago"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2047300,
+            "question": "Tổng cộng từ 2/6 đến 26/7 nước ta đã tiêm bao nhiêu liều?",
+            "image_url": "https://i.postimg.cc/V6P89Rsn/0473.jpg",
+            "image": "documents/0473.png",
+            "ocr_output_file": "ocr_results/0473.json",
+            "answers": [
+                "4.746.642"
+            ],
+            "question_types": [
+                "Text",
+                "Figure"
+            ]
+        },
+        {
+            "questionId": 2528000,
+            "question": "Sự kiện gì diễn ra vào tháng 7 năm 1954?",
+            "image_url": "https://i.postimg.cc/wMTKV53B/5280.jpg",
+            "image": "documents/5280.png",
+            "ocr_output_file": "ocr_results/5280.json",
+            "answers": [
+                "Chiến thắng Điện Biên Phủ"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2469400,
+            "question": "Băng đạn của K-54 có bao nhiêu viên?",
+            "image_url": "https://i.postimg.cc/R0NBrLTJ/4694.jpg",
+            "image": "documents/4694.png",
+            "ocr_output_file": "ocr_results/4694.json",
+            "answers": [
+                "13 viên"
+            ],
+            "question_types": [
+                "Question span",
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2494700,
+            "question": "Tổng chiều dài của bức tường Berlin?",
+            "image_url": "https://i.postimg.cc/J79cjrFf/4947.jpg",
+            "image": "documents/4947.png",
+            "ocr_output_file": "ocr_results/4947.json",
+            "answers": [
+                "155 km"
+            ],
+            "question_types": [
+                "Map",
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2145800,
+            "question": "Biểu đồ khu vực nào to nhất?",
+            "image_url": "https://i.postimg.cc/VsT285wV/1458.jpg",
+            "image": "documents/1458.png",
+            "ocr_output_file": "ocr_results/1458.json",
+            "answers": [
+                "THẾ GIỚI"
+            ],
+            "question_types": [
+                "Figure",
+                "Sorting"
+            ]
+        },
+        {
+            "questionId": 2528001,
+            "question": "Ba lần chiến thắng quân Nguyên Mông do những ai chỉ huy và lãnh đạo?",
+            "image_url": "https://i.postimg.cc/wMTKV53B/5280.jpg",
+            "image": "documents/5280.png",
+            "ocr_output_file": "ocr_results/5280.json",
+            "answers": [
+                "Trần Thái Tông",
+                "Trần Quốc Tuấn"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2565500,
+            "question": "Có mấy loại kĩ năng để ghi bài hiệu quả?",
+            "image_url": "https://i.postimg.cc/2SYtFFJN/5655.jpg",
+            "image": "documents/5655.png",
+            "ocr_output_file": "ocr_results/5655.json",
+            "answers": [
+                "3 loại: Nghe một cách chủ động, kỹ năng tạo dàn ý, cần tư duy"
+            ],
+            "question_types": [
+                "Multi-Span"
+            ]
+        },
+        {
+            "questionId": 2107400,
+            "question": "Loại đất nào có tỷ lệ suy thoái cao nhất ?",
+            "image_url": "https://i.postimg.cc/MTJncVhr/1074.jpg ",
+            "image": "documents/1074.png",
+            "ocr_output_file": "ocr_results/1074.json",
+            "answers": [
+                "đất lâm nghiệp"
+            ],
+            "question_types": [
+                "Image span",
+                "Figure",
+                "Sorting"
+            ]
+        },
+        {
+            "questionId": 2631501,
+            "question": "Nước ta có đạt được mục tiêu đề ra về tỉ lệ xã đạt tiêu chuẩn nông thôn mới không ?",
+            "image_url": "https://i.postimg.cc/KYpFHHSM/6315.png",
+            "image": "documents/6315.png",
+            "ocr_output_file": "ocr_results/6315.json",
+            "answers": [
+                "Có"
+            ],
+            "question_types": [
+                "Image span",
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2493800,
+            "question": "Áo thun được sử dụng lần đầu vào lúc nào?",
+            "image_url": "https://i.postimg.cc/TwshMPmf/4938.jpg",
+            "image": "documents/4938.png",
+            "ocr_output_file": "ocr_results/4938.json",
+            "answers": [
+                "Vào năm 1953 trong cuộc chiến tranh giữa Tây Ban Nha và Mỹ"
+            ],
+            "question_types": [
+                "Question span"
+            ]
+        },
+        {
+            "questionId": 2515801,
+            "question": "Năm ra đời của máy ATM sinh trắc học?",
+            "image_url": "https://i.postimg.cc/PJkJrR6R/5158.jpg",
+            "image": "documents/5158.png",
+            "ocr_output_file": "ocr_results/5158.json",
+            "answers": [
+                "2010"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2626601,
+            "question": "Mức tăng tháng 12 qua các năm như thế nào ?",
+            "image_url": "https://i.postimg.cc/14hjdp36/6266.png",
+            "image": "documents/6266.png",
+            "ocr_output_file": "ocr_results/6266.json",
+            "answers": [
+                "Nhìn chung là tăng qua các năm"
+            ],
+            "question_types": [
+                "Image span",
+                "Figure"
+            ]
+        },
+        {
+            "questionId": 2302301,
+            "question": "Tổng số thí sinh đăng kí dự tuyển là bao nhiêu?",
+            "image_url": "https://i.postimg.cc/VNNjm3xL/3023.jpg",
+            "image": "documents/3023.png",
+            "ocr_output_file": "ocr_results/3023.json",
+            "answers": [
+                "93.362",
+                "93362"
+            ],
+            "question_types": [
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2644500,
+            "question": "Tỷ lệ hộ nghèo cả nước giảm hay tăng?",
+            "image_url": "https://i.postimg.cc/fbfSSZdh/6445.jpg",
+            "image": "documents/6445.png",
+            "ocr_output_file": "ocr_results/6445.json",
+            "answers": [
+                "giảm"
+            ],
+            "question_types": [
+                "Figure",
+                "Question span"
+            ]
+        },
+        {
+            "questionId": 2112900,
+            "question": "Tam Đảo cao bao nhiêu so với mực nước biển ?",
+            "image_url": "https://i.postimg.cc/66YQKk5P/1129.jpg ",
+            "image": "documents/1129.png",
+            "ocr_output_file": "ocr_results/1129.json",
+            "answers": [
+                "900m"
+            ],
+            "question_types": [
+                "Image span",
+                "Figure"
+            ]
+        },
+        {
+            "questionId": 2197200,
+            "question": "Số việc làm mới có đạt trên 100.000 không?",
+            "image_url": "https://i.postimg.cc/2SvbC0tB/1972.jpg",
+            "image": "documents/1972.png",
+            "ocr_output_file": "ocr_results/1972.json",
+            "answers": [
+                "Đạt",
+                "Có"
+            ],
+            "question_types": [
+                "Non-extractive"
+            ]
+        },
+        {
+            "questionId": 2080900,
+            "question": "1 cầu treo bị lật ở xã Bản Hồ, huyện Sa Pa do mưa lũ đúng không?",
+            "image_url": "https://i.postimg.cc/kG8wQQ46/0809.jpg",
+            "image": "documents/0809.png",
+            "ocr_output_file": "ocr_results/0809.json",
+            "answers": [
+                "Đúng"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2206700,
+            "question": "Lĩnh vực nào chiếm tỉ trọng cao nhất trong cơ cấu GDP?",
+            "image_url": "https://i.postimg.cc/prfzXxk4/2067.jpg",
+            "image": "documents/2067.png",
+            "ocr_output_file": "ocr_results/2067.json",
+            "answers": [
+                "Dịch vụ"
+            ],
+            "question_types": [
+                "Sorting",
+                "Figure",
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2515400,
+            "question": "Đoàn thanh niên cộng sản Hồ Chí Minh thành lập ngày tháng năm nào?",
+            "image_url": "https://i.postimg.cc/7Ldbj6SD/5154.jpg",
+            "image": "documents/5154.png",
+            "ocr_output_file": "ocr_results/5154.json",
+            "answers": [
+                "26/3/1931"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2572001,
+            "question": "Phế liệu sắt thép có được Việt Nam nhập khẩu không?",
+            "image_url": "https://i.postimg.cc/fRMH0Wtw/5720.jpg",
+            "image": "documents/5720.png",
+            "ocr_output_file": "ocr_results/5720.json",
+            "answers": [
+                "Có"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2616500,
+            "question": "Diện tích của công viên địa chất Đắk Nông là bao nhiêu ?",
+            "image_url": "https://i.postimg.cc/nzw83jmY/6165.jpg",
+            "image": "documents/6165.png",
+            "ocr_output_file": "ocr_results/6165.json",
+            "answers": [
+                "2.000 km2"
+            ],
+            "question_types": [
+                "Image span",
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2221700,
+            "question": "Khách quốc tế đến Việt Nam giảm bao nhiêu phần trăm trong tháng 1/2021?",
+            "image_url": "https://i.postimg.cc/SK9spdgt/2217.jpg",
+            "image": "documents/2217.png",
+            "ocr_output_file": "ocr_results/2217.json",
+            "answers": [
+                "99,1%",
+                "99,1"
+            ],
+            "question_types": [
+                "Text",
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2635900,
+            "question": "Số hợp tác xã (HTX) và liên hiệp HTX trong lĩnh vực phi nông nghiệp đến năm 2030 là bao nhiêu ?",
+            "image_url": "https://i.postimg.cc/N0Fvmk9f/6359.png",
+            "image": "documents/6359.png",
+            "ocr_output_file": "ocr_results/6359.json",
+            "answers": [
+                "25.000"
+            ],
+            "question_types": [
+                "Image span",
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2443200,
+            "question": "Tỷ lệ DN FDI đánh giá tình hình sản xuất kinh doanh khó khăn hơn là?",
+            "image_url": "https://i.postimg.cc/Bbkt2zbs/4432.jpg",
+            "image": "documents/4432.png",
+            "ocr_output_file": "ocr_results/4432.json",
+            "answers": [
+                "24,1%"
+            ],
+            "question_types": [
+                "Figure"
+            ]
+        },
+        {
+            "questionId": 2080000,
+            "question": "Diện tích vùng lõi (Khu di sản) là bao nhiêu?",
+            "image_url": "https://i.postimg.cc/X7fQXkmt/0800.jpg",
+            "image": "documents/0800.png",
+            "ocr_output_file": "ocr_results/0800.json",
+            "answers": [
+                "6226 ha"
+            ],
+            "question_types": [
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2425000,
+            "question": "Tổng chi ngân sách cho giáo dục đào tạo từ năm 2013 đến năm 2018 tăng hay giảm?",
+            "image_url": "https://i.postimg.cc/BvVLBtX2/4250.jpg",
+            "image": "documents/4250.png",
+            "ocr_output_file": "ocr_results/4250.json",
+            "answers": [
+                "Tăng"
+            ],
+            "question_types": [
+                "Non-extractive"
+            ]
+        },
+        {
+            "questionId": 2522101,
+            "question": "Đại hội bầu BCH Trung ương gồm bao nhiêu ủy viên chính thức và bao nhiêu ủy viên dự bị?",
+            "image_url": "https://i.postimg.cc/BQpb4N2m/5221.jpg",
+            "image": "documents/5221.png",
+            "ocr_output_file": "ocr_results/5221.json",
+            "answers": [
+                "47 ủy viên chính thức, 31 ủy viên dự khuyết"
+            ],
+            "question_types": [
+                "Text",
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2192100,
+            "question": "Chỉ số phát triển sản xuất công nghiệp năm 2017 là bao nhiêu?",
+            "image_url": "https://i.postimg.cc/dQB9YVCK/1921.jpg",
+            "image": "documents/1921.png",
+            "ocr_output_file": "ocr_results/1921.json",
+            "answers": [
+                "121.09%"
+            ],
+            "question_types": [
+                "Figure"
+            ]
+        },
+        {
+            "questionId": 2044000,
+            "question": "Pakistan và Afghanistan nằm trong kế hoạch viện trợ của Mỹ?",
+            "image_url": "https://i.postimg.cc/1z2zkwm3/0440.jpg",
+            "image": "documents/0440.png",
+            "ocr_output_file": "ocr_results/0440.json",
+            "answers": [
+                "Đúng"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2600600,
+            "question": "Có quỹ tiết kiệm bằng bao nhiêu lần thu nhập khi về hưu?",
+            "image_url": "https://i.postimg.cc/J06hczr9/6006.jpg",
+            "image": "documents/6006.png",
+            "ocr_output_file": "ocr_results/6006.json",
+            "answers": [
+                "20"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2060600,
+            "question": "Tỷ lệ người nhiễm HIV được điều trị ARV ở Nam Phi cao hơn Ấn Độ vào tháng 6/2017 là bao nhiêu?",
+            "image_url": "https://i.postimg.cc/QCMnc97c/0606.jpg",
+            "image": "documents/0606.png",
+            "ocr_output_file": "ocr_results/0606.json",
+            "answers": [
+                "15%"
+            ],
+            "question_types": [
+                "Figure",
+                "Arithmetic"
+            ]
+        },
+        {
+            "questionId": 2207501,
+            "question": "Hoàn tất đàm phán FTA Việt Nam - EU vào ngày nào?",
+            "image_url": "https://i.postimg.cc/qMGyPJNC/2075.jpg",
+            "image": "documents/2075.png",
+            "ocr_output_file": "ocr_results/2075.json",
+            "answers": [
+                "5.10"
+            ],
+            "question_types": [
+                "Text",
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2459701,
+            "question": "Có bao nhiêu cơ quan, đơn vị, doanh nghiệp... hoạt động trên lĩnh vực công nghệ thông tin?",
+            "image_url": "https://i.postimg.cc/7Zh1S5Vn/4597.jpg ",
+            "image": "documents/4597.png",
+            "ocr_output_file": "ocr_results/4597.json",
+            "answers": [
+                "Khoảng 275"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2481800,
+            "question": "Ý kiến chỉ đạo của thủ tướng Nguyễn Xuân Phúc là gì?",
+            "image_url": "https://i.postimg.cc/m22p62jt/4818.jpg",
+            "image": "documents/4818.png",
+            "ocr_output_file": "ocr_results/4818.json",
+            "answers": [
+                "Mỗi người dân, mỗi khu dân cư phải là \"pháo đài\" phòng chống dịch bệnh Covid-19"
+            ],
+            "question_types": []
+        },
+        {
+            "questionId": 2528202,
+            "question": "Máy bay chạy bằng sức người đầu tiên được chế tạo vào năm?",
+            "image_url": "https://i.postimg.cc/MZdJGLrf/5282.jpg",
+            "image": "documents/5282.png",
+            "ocr_output_file": "ocr_results/5282.json",
+            "answers": [
+                "1903"
+            ],
+            "question_types": []
+        },
+        {
+            "questionId": 2207201,
+            "question": "Chỉ tiêu tỉ lệ lao động được đào tạo năm 2019 đạt bao nhiêu phần trăm?",
+            "image_url": "https://i.postimg.cc/Qdt9vpLR/2072.png",
+            "image": "documents/2072.png",
+            "ocr_output_file": "ocr_results/2072.json",
+            "answers": [
+                "60-62%",
+                "60-62"
+            ],
+            "question_types": [
+                "Image span",
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2095101,
+            "question": "Quỹ đất tổng cộng bao nhiêu ?",
+            "image_url": "https://i.postimg.cc/VvR0PvZZ/0951.jpg ",
+            "image": "documents/0951.png",
+            "ocr_output_file": "ocr_results/0951.json",
+            "answers": [
+                "485.996ha"
+            ],
+            "question_types": [
+                "Image span",
+                "Figure",
+                "Arithmetic"
+            ]
+        },
+        {
+            "questionId": 2458100,
+            "question": "Các ngành nào có chỉ số sản xuất tăng trong tháng 7/2017?",
+            "image_url": "https://i.postimg.cc/ZKTxK7vg/4581.png",
+            "image": "documents/4581.png",
+            "ocr_output_file": "ocr_results/4581.json",
+            "answers": [
+                "Chế biến, chế tạo, sản xuất và phân phối điện, khai khoáng"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2638801,
+            "question": "Nhóm sản phẩm nào có giá trị xuất khẩu tăng ?",
+            "image_url": "https://i.postimg.cc/yYKqvHgG/6388.jpg",
+            "image": "documents/6388.png",
+            "ocr_output_file": "ocr_results/6388.json",
+            "answers": [
+                "Cao su, Rau quả, Đồ gỗ, thực phẩm chăn nuôi, sắn,..."
+            ],
+            "question_types": [
+                "Image span",
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2365400,
+            "question": "Việt Nam là ủy viên Ban Chấp hành IPU bao nhiêu năm?",
+            "image_url": "https://i.postimg.cc/ZKhs45Vb/3654.jpg",
+            "image": "documents/3654.png",
+            "ocr_output_file": "ocr_results/3654.json",
+            "answers": [
+                "4"
+            ],
+            "question_types": [
+                "Arithmetic",
+                "Non-extractive"
+            ]
+        },
+        {
+            "questionId": 2199500,
+            "question": "Tốc độ tăng GDP Quý II năm 2019 so với năm 2018 tăng hay giảm?",
+            "image_url": "https://i.postimg.cc/bY7S4XCj/1995.jpg",
+            "image": "documents/1995.png",
+            "ocr_output_file": "ocr_results/1995.json",
+            "answers": [
+                "Tăng"
+            ],
+            "question_types": [
+                "Question span"
+            ]
+        },
+        {
+            "questionId": 2189801,
+            "question": "Tổng giá trị hàng hóa xuất siêu trong năm 2020 là bao nhiêu?",
+            "image_url": "https://i.postimg.cc/Vv14FSbK/1898.jpg",
+            "image": "documents/1898.png",
+            "ocr_output_file": "ocr_results/1898.json",
+            "answers": [
+                "19.1 tỷ USD",
+                "19,1 tỷ USD"
+            ],
+            "question_types": [
+                "Image span",
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2129700,
+            "question": "Cao tốc Bắc Giang - Chi Lăng đã hoàn thành chưa?",
+            "image_url": "https://i.postimg.cc/TYsdBTNd/1297.jpg",
+            "image": "documents/1297.png",
+            "ocr_output_file": "ocr_results/1297.json",
+            "answers": [
+                "Đã hoàn thành"
+            ],
+            "question_types": [
+                "Figure",
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2080001,
+            "question": "Hình ảnh đề cập đến vấn đề nào?",
+            "image_url": "https://i.postimg.cc/X7fQXkmt/0800.jpg",
+            "image": "documents/0800.png",
+            "ocr_output_file": "ocr_results/0800.json",
+            "answers": [
+                "Thiên nhiên"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2570800,
+            "question": "Tháng nào có chỉ số CPI cao nhất?",
+            "image_url": "https://i.postimg.cc/d0HSFM0J/5708.jpg",
+            "image": "documents/5708.png",
+            "ocr_output_file": "ocr_results/5708.json",
+            "answers": [
+                "Tháng 12/2019"
+            ],
+            "question_types": [
+                "Figure"
+            ]
+        },
+        {
+            "questionId": 2529902,
+            "question": "Xu thế thứ ba của thế giới sau chiến tranh lạnh là gì?",
+            "image_url": "https://i.postimg.cc/TYpF33DB/5299.jpg",
+            "image": "documents/5299.png",
+            "ocr_output_file": "ocr_results/5299.json",
+            "answers": [
+                "Mĩ ra sức thiết lập trật tự thế giới \"một cực\" để làm bá chủ thế giới."
+            ],
+            "question_types": [
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2488500,
+            "question": "Mitsubishi F-2 có thể mang theo bao nhiêu loại vũ khí?",
+            "image_url": "https://i.postimg.cc/Dy9s4xSn/4885.jpg",
+            "image": "documents/4885.png",
+            "ocr_output_file": "ocr_results/4885.json",
+            "answers": [
+                "4"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2278702,
+            "question": "Các amin đều có độc đúng không?",
+            "image_url": "https://i.postimg.cc/gj1z56vP/2787.jpg",
+            "image": "documents/2787.png",
+            "ocr_output_file": "ocr_results/2787.json",
+            "answers": [
+                "Đúng",
+                "đúng"
+            ],
+            "question_types": [
+                "Question span"
+            ]
+        },
+        {
+            "questionId": 2482001,
+            "question": "Tính đến 10 giờ 30 ngày 9/7/2020 thế giới có bao nhiêu ca mắc?",
+            "image_url": "https://i.postimg.cc/1zpK3LBk/4820.jpg",
+            "image": "documents/4820.png",
+            "ocr_output_file": "ocr_results/4820.json",
+            "answers": [
+                "12,166,688"
+            ],
+            "question_types": []
+        },
+        {
+            "questionId": 2294900,
+            "question": "Mưa sao băng sắp rực xuất hiện có tên là gì?",
+            "image_url": "https://i.postimg.cc/Y2vb1myq/2949.jpg",
+            "image": "documents/2949.png",
+            "ocr_output_file": "ocr_results/2949.json",
+            "answers": [
+                "Geminids"
+            ],
+            "question_types": [
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2185500,
+            "question": "Chỉ tiêu được phân làm mấy loại ?",
+            "image_url": "https://i.postimg.cc/kMxptCtj/1855.jpg ",
+            "image": "documents/1855.png",
+            "ocr_output_file": "ocr_results/1855.json",
+            "answers": [
+                "3"
+            ],
+            "question_types": [
+                "Non-extractive",
+                "Figure",
+                "Count"
+            ]
+        },
+        {
+            "questionId": 2245901,
+            "question": "Đà Nẵng đứng thứ bao nhiêu trong điểm đến tịnh hành?",
+            "image_url": "https://i.postimg.cc/5NcWhJh1/2459.jpg",
+            "image": "documents/2459.png",
+            "ocr_output_file": "ocr_results/2459.json",
+            "answers": [
+                "7"
+            ],
+            "question_types": [
+                "Text",
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2628700,
+            "question": "Chỉ số ẩm bất thường của đất như thế nào ?",
+            "image_url": "https://i.postimg.cc/wMsrFWgg/6287.jpg",
+            "image": "documents/6287.png",
+            "ocr_output_file": "ocr_results/6287.json",
+            "answers": [
+                "Khô và ẩm phân bố khá đều",
+                "Chỉ số ẩm bất thường của đất phân bố theo vùng"
+            ],
+            "question_types": [
+                "Image span",
+                "Map"
+            ]
+        },
+        {
+            "questionId": 2044700,
+            "question": "Rửa bể nước,giếng nước là một trong cách cách phòng chống dịch bệnh mùa mưa lũ?",
+            "image_url": "https://i.postimg.cc/bJ1q45Vm/0447.jpg",
+            "image": "documents/0447.png",
+            "ocr_output_file": "ocr_results/0447.json",
+            "answers": [
+                "Đúng"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2043301,
+            "question": "Lượng ca của thủ đô theo bảng thống kê là bao nhiêu?",
+            "image_url": "https://i.postimg.cc/D0KwZhbV/0433.jpg",
+            "image": "documents/0433.png",
+            "ocr_output_file": "ocr_results/0433.json",
+            "answers": [
+                "6"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2242200,
+            "question": "Nhật Bản được xếp thứ mấy trong 10 điếm đến hấp dẫn của thế giới?",
+            "image_url": "https://i.postimg.cc/yYwCzH2s/2422.png",
+            "image": "documents/2422.png",
+            "ocr_output_file": "ocr_results/2422.json",
+            "answers": [
+                "3"
+            ],
+            "question_types": [
+                "Table/List",
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2536500,
+            "question": "ARN được cấu tạo từ bao nhiêu nguyên tố?",
+            "image_url": "https://i.postimg.cc/BvsmHSjS/5365.jpg",
+            "image": "documents/5365.png",
+            "ocr_output_file": "ocr_results/5365.json",
+            "answers": [
+                "5",
+                "C,H,O,N,P"
+            ],
+            "question_types": [
+                "Text",
+                "Multi-Span"
+            ]
+        },
+        {
+            "questionId": 2498900,
+            "question": "Hiệp định Paris được ký kết vào ngày tháng năm nào?",
+            "image_url": "https://i.postimg.cc/B6RD5pmT/4989.png",
+            "image": "documents/4989.png",
+            "ocr_output_file": "ocr_results/4989.json",
+            "answers": [
+                "27/1/1973"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2186901,
+            "question": "Số lượt người đi đường biển năm 2020 giảm bao nhiêu % ?",
+            "image_url": "https://i.postimg.cc/k5zpWXcH/1869.jpg ",
+            "image": "documents/1869.png",
+            "ocr_output_file": "ocr_results/1869.json",
+            "answers": [
+                "37,8%"
+            ],
+            "question_types": [
+                "Non-extractive",
+                "Figure",
+                "Arithmetic"
+            ]
+        },
+        {
+            "questionId": 2207001,
+            "question": "Quy mô ngành thương mại điện tử khu vực Đông Nam Á trị giá bao nhiêu tỷ USD?",
+            "image_url": "https://i.postimg.cc/fL0YpYdw/2070.jpg",
+            "image": "documents/2070.png",
+            "ocr_output_file": "ocr_results/2070.json",
+            "answers": [
+                "35"
+            ],
+            "question_types": [
+                "Image span",
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2190500,
+            "question": "Vốn đăng ký đầu tư nước ngoài vào Việt Nam là bao nhiêu?",
+            "image_url": "https://i.postimg.cc/4xnPwRmR/1905.jpg",
+            "image": "documents/1905.png",
+            "ocr_output_file": "ocr_results/1905.json",
+            "answers": [
+                "23.5 tỷ USD",
+                "23,5 tỷ USD"
+            ],
+            "question_types": [
+                "Text",
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2469401,
+            "question": "Súng ngắn có được trang bị trong quân đội Việt Nam không? ",
+            "image_url": "https://i.postimg.cc/R0NBrLTJ/4694.jpg",
+            "image": "documents/4694.png",
+            "ocr_output_file": "ocr_results/4694.json",
+            "answers": [
+                "Có"
+            ],
+            "question_types": [
+                "Non-extractive"
+            ]
+        },
+        {
+            "questionId": 2329600,
+            "question": "Lập trình viên nên nghe nhạc theo cách nào?",
+            "image_url": "https://i.postimg.cc/43zT4SVq/3296.png",
+            "image": "documents/3296.png",
+            "ocr_output_file": "ocr_results/3296.json",
+            "answers": [
+                "Đeo tai nghe, Loa di động",
+                "Loa di động, Đeo tai nghe"
+            ],
+            "question_types": [
+                "Visual/Layout",
+                "Multi-Span"
+            ]
+        },
+        {
+            "questionId": 2350200,
+            "question": "Có bao nhiêu chương trình hành động trong nhiệm kỳ Đại hội?",
+            "image_url": "https://i.postimg.cc/rssb4nR8/3502.jpg",
+            "image": "documents/3502.png",
+            "ocr_output_file": "ocr_results/3502.json",
+            "answers": [
+                "4"
+            ],
+            "question_types": [
+                "Count",
+                "Non-extractive"
+            ]
+        },
+        {
+            "questionId": 2598000,
+            "question": "Kế hoạch tài chính 5 năm quốc gia giai đoạn nào?",
+            "image_url": "https://i.postimg.cc/QNbKdX3g/5980.jpg",
+            "image": "documents/5980.png",
+            "ocr_output_file": "ocr_results/5980.json",
+            "answers": [
+                "2016-2020"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2238100,
+            "question": "Có bao nhiêu lợi ích sức khoẻ của việc đi du lịch?",
+            "image_url": "https://i.postimg.cc/05Xqcmf6/2381.jpg",
+            "image": "documents/2381.png",
+            "ocr_output_file": "ocr_results/2381.json",
+            "answers": [
+                "8"
+            ],
+            "question_types": [
+                "Text",
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2639100,
+            "question": "Mức hỗ trợ từ Nhà nước hiện nay như thế nào ?",
+            "image_url": "https://i.postimg.cc/x1jwV3Py/6391.jpg",
+            "image": "documents/6391.png",
+            "ocr_output_file": "ocr_results/6391.json",
+            "answers": [
+                "giảm dần"
+            ],
+            "question_types": [
+                "Image span",
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2199800,
+            "question": "Tốc độ tăng tổng kim ngạch xuất khẩu năm 2019 có đạt chỉ tiêu không?",
+            "image_url": " https://i.postimg.cc/7YzYzfnF/1998.jpg",
+            "image": "documents/1998.png",
+            "ocr_output_file": "ocr_results/1998.json",
+            "answers": [
+                "Đạt",
+                "Có"
+            ],
+            "question_types": [
+                "Non-extractive"
+            ]
+        },
+        {
+            "questionId": 2642800,
+            "question": "Thu nhập bình quân của người dân nông thôn tăng bao nhiêu so với 2020?",
+            "image_url": "https://i.postimg.cc/bvc123F1/6428.jpg",
+            "image": "documents/6428.png",
+            "ocr_output_file": "ocr_results/6428.json",
+            "answers": [
+                "1.8"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2604600,
+            "question": "có bao nhiêu chỉ tiêu chủ yếu ?",
+            "image_url": "https://i.postimg.cc/Z53T0cNk/6046.png",
+            "image": "documents/6046.png",
+            "ocr_output_file": "ocr_results/6046.json",
+            "answers": [
+                "20"
+            ],
+            "question_types": [
+                "Image span",
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2118300,
+            "question": "Điều kiện hưởng lương hưu khi suy giảm khả năng lao động bao nhiêu?",
+            "image_url": "https://i.postimg.cc/jSk7gVPP/1183.jpg",
+            "image": "documents/1183.png",
+            "ocr_output_file": "ocr_results/1183.json",
+            "answers": [
+                ">= 61%"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2207601,
+            "question": "Công nghiệp khai khoáng trong quý I năm 2021 tăng bao nhiêu phần trăm so với cùng kỳ?",
+            "image_url": "https://i.postimg.cc/5ySQWg2M/2076.png",
+            "image": "documents/2076.png",
+            "ocr_output_file": "ocr_results/2076.json",
+            "answers": [
+                "8,65",
+                "8,65%"
+            ],
+            "question_types": [
+                "Text",
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2457000,
+            "question": "Diện tích đất cho thuê đang hoạt động là bao nhiêu?",
+            "image_url": "https://i.postimg.cc/HLLNcWJq/4570.jpg",
+            "image": "documents/4570.png",
+            "ocr_output_file": "ocr_results/4570.json",
+            "answers": [
+                "31,8 nghìn ha",
+                "31 800 ha"
+            ],
+            "question_types": [
+                "Figure"
+            ]
+        },
+        {
+            "questionId": 2636601,
+            "question": "Việt Nam đạt nhiều thành tựu lớn trong lĩnh vực nào ?",
+            "image_url": "https://i.postimg.cc/wT5zpvYH/6366.png",
+            "image": "documents/6366.png",
+            "ocr_output_file": "ocr_results/6366.json",
+            "answers": [
+                "Sản xuất lương thực"
+            ],
+            "question_types": [
+                "Image span",
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2052800,
+            "question": "Gan được buôn bán với số tiền USD là?",
+            "image_url": "https://i.postimg.cc/wjS8HVmZ/0528.jpg",
+            "image": "documents/0528.png",
+            "ocr_output_file": "ocr_results/0528.json",
+            "answers": [
+                "157.000"
+            ],
+            "question_types": [
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2633000,
+            "question": "Có bao nhiêu doanh nghiệp tạm ngừng kinh doanh có thời hạn trong tháng 7 năm 2020 ?",
+            "image_url": "https://i.postimg.cc/c4GW23jX/6330.jpg",
+            "image": "documents/6330.png",
+            "ocr_output_file": "ocr_results/6330.json",
+            "answers": [
+                "32.722"
+            ],
+            "question_types": [
+                "Image span",
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2458301,
+            "question": "Đầu tư cho nghiên cứu và phát triển giai đoạn 2010 - 2017 có tăng hay không?",
+            "image_url": "https://i.postimg.cc/C1B67vsJ/4583.jpg",
+            "image": "documents/4583.png",
+            "ocr_output_file": "ocr_results/4583.json",
+            "answers": [
+                "Có",
+                "Có, nhưng cần tăng nhanh hơn nữa"
+            ],
+            "question_types": [
+                "Non-extractive",
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2601700,
+            "question": "Báo cáo kết quả kinh doanh năm nào?",
+            "image_url": "https://i.postimg.cc/s24s4gKw/6017.jpg",
+            "image": "documents/6017.png",
+            "ocr_output_file": "ocr_results/6017.json",
+            "answers": [
+                "2015"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2478600,
+            "question": "Nhiều phong trào lớn của thanh niên Việt Nam diễn ra trong bao lâu?",
+            "image_url": "https://i.postimg.cc/X7LSpzHy/4786.jpg",
+            "image": "documents/4786.png",
+            "ocr_output_file": "ocr_results/4786.json",
+            "answers": [
+                "85 năm"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2443201,
+            "question": "Tỷ lệ DN nhà nước đánh giá tình hình sản xuất kinh doanh khó khăn hơn là?",
+            "image_url": "https://i.postimg.cc/Bbkt2zbs/4432.jpg",
+            "image": "documents/4432.png",
+            "ocr_output_file": "ocr_results/4432.json",
+            "answers": [
+                "20,3%"
+            ],
+            "question_types": [
+                "Figure"
+            ]
+        },
+        {
+            "questionId": 2185400,
+            "question": "Số tiền nhập khẩu trong khu vực kinh tế trong nước hơn khu vực FDI ?",
+            "image_url": "https://i.postimg.cc/qRKZwVDv/1854.jpg ",
+            "image": "documents/1854.png",
+            "ocr_output_file": "ocr_results/1854.json",
+            "answers": [
+                "35,9 tỷ USD"
+            ],
+            "question_types": [
+                "Non-extractive",
+                "Figure",
+                "Arithmetic"
+            ]
+        },
+        {
+            "questionId": 2601701,
+            "question": "BlackBerry thay đổi nhân lực so với năm 2013 như thế nào?",
+            "image_url": "https://i.postimg.cc/s24s4gKw/6017.jpg",
+            "image": "documents/6017.png",
+            "ocr_output_file": "ocr_results/6017.json",
+            "answers": [
+                "Nhân lực cắt giảm 40%"
+            ],
+            "question_types": [
+                "Text"
+            ]
+        },
+        {
+            "questionId": 2056300,
+            "question": "Loại ung thư gan nguyên phát phổ biến nhất là?",
+            "image_url": "https://i.postimg.cc/mg1JdH5w/0563.jpg",
+            "image": "documents/0563.png",
+            "ocr_output_file": "ocr_results/0563.json",
+            "answers": [
+                "Ung thư biểu mô tế bào gan(HCC)"
+            ],
+            "question_types": [
+                "Image span"
+            ]
+        },
+        {
+            "questionId": 2092600,
+            "question": "Có bao nhiêu thương hiệu từ trên 90?",
+            "image_url": "https://i.postimg.cc/9FbZv8vX/0926.jpg",
+            "image": "documents/0926.png",
+            "ocr_output_file": "ocr_results/0926.json",
+            "answers": [
+                "2"
+            ],
+            "question_types": [
+                "Image span",
+                "Map",
+                "Count"
+            ]
+        },
+        {
+            "questionId": 2122700,
+            "question": "Ngày no bra còn gọi là ngày gì?",
+            "image_url": "https://i.postimg.cc/m2L1TZS7/1227.png",
+            "image": "documents/1227.png",
+            "ocr_output_file": "ocr_results/1227.json",
+            "answers": [
+                "Ngày quốc tế không mặc áo ngực"
+            ],
+            "question_types": [
+                "Text",
+                "Figure"
+            ]
+        },
+        {
+            "questionId": 2285100,
+            "question": "Việt Nam hợp tác với bao nhiêu quốc gia về tài nguyên môi trường?",
+            "image_url": "https://i.postimg.cc/GtgK1b2R/2851.jpg",
+            "image": "documents/2851.png",
+            "ocr_output_file": "ocr_results/2851.json",
+            "answers": [
+                "77"
+            ],
+            "question_types": [
+                "Image span",
+                "Text"
+            ]
+        }
+    ]
+}

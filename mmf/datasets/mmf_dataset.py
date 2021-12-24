@@ -83,6 +83,7 @@ class MMFDataset(BaseDataset):
 
     def _add_root_dir(self, path):
         path = path.split(",")
+        print('path: ', path )
         for idx, p in enumerate(path):
             path[idx] = os.path.join(self.config.data_dir, p)
 

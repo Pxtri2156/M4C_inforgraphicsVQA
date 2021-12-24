@@ -120,6 +120,16 @@ def count_type_answer(annotations):
             result[num_answer] += 1
     return result
 
+def check_ocr_bbox(annotations):
+    size_list = []
+    for annotation in annotations[1:]:
+        size_list.append(np.array(annotation['ocr_normalized_boxes']).shape)
+        if np.array(annotation['ocr_normalized_boxes']).shape[0] == 0:
+            print(annotation['image_name'])
+            print(annotation['ocr_normalized_boxes'])
+    size_list = set(size_list)
+    print('size list: ', size_list)
+    
 def main(args):
     annotations = np.load(args.annot, allow_pickle=True) 
     print('len: ', len(annotations))
@@ -179,6 +189,8 @@ def main(args):
             print("Yes")
         else:
             print("No")
+    elif args.option == 15:
+        check_ocr_bbox(annotations)
     else:
         print("Please choose suitable option")
 
@@ -221,10 +233,15 @@ python utils/analysis_annotation_textvqa.py \
 
 
 python utils/analysis_annotation.py \
-    --annot="env_variable/data/datasets/inforgraphicvqa/defaults/annotations/vqa_train_en.npy" \
+    --annot="env_variable/data/datasets/inforgraphicvqa/defaults/annotations/infoVQA_train_en.npy" \
     --option=0
 
 python utils/analysis_annotation.py \
 --annot="env_variable/data/datasets/inforgraphicvqa/defaults/annotations/infoVQA_val_en.npy" \
 --option=0
+
+python utils/analysis_annotation.py \
+--annot="env_variable/data/datasets/vi_infographicvqa/defaults/annotations/infoVQA_train_vi.npy" \
+--option=0
+
 '''

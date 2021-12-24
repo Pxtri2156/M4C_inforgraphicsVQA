@@ -4,24 +4,24 @@ model_config:
     - type: m4c_decoding_bce_with_mask
 
 dataset_config:
-  inforgraphicvqa:
+  vi_infographicvqa:
     zoo_requirements:
-    - inforgraphicvqa.defaults
-    - inforgraphicvqa.ocr_en
+    - vi_infographicvqa.defaults 
+    - vi_infographicvqa.ocr_vi
     features:
       train:
-      - inforgraphicvqa/defaults/features,inforgraphicvqa/ocr_en/features
+      - vi_infographicvqa/defaults/features,vi_infographicvqa/ocr_vi/features
       val:
-      - inforgraphicvqa/defaults/features,inforgraphicvqa/ocr_en/features
+      - vi_infographicvqa/defaults/features,vi_infographicvqa/ocr_vi/features
       test:
-      - inforgraphicvqa/defaults/features,inforgraphicvqa/ocr_en/features
+      - vi_infographicvqa/defaults/features,vi_infographicvqa/ocr_vi/features
     annotations:
       train:
-      - inforgraphicvqa/defaults/annotations/infoVQA_train_en.npy 
+      - vi_infographicvqa/defaults/annotations/infoVQA_train_vi.npy # need to change
       val:
-      - inforgraphicvqa/defaults/annotations/infoVQA_val_en.npy   
+      - vi_infographicvqa/defaults/annotations/infoVQA_val_vi.npy   # need to change
       test:
-      - inforgraphicvqa/defaults/annotations/infoVQA_test_en.npy   
+      - vi_infographicvqa/defaults/annotations/infoVQA_test_vi.npy   # need to change
     processors:
       text_processor:
         type: bert_tokenizer
@@ -35,7 +35,7 @@ dataset_config:
         type: m4c_answer
         params:
           # vocab_file: textvqa/defaults/extras/vocabs/fixed_answer_vocab_textvqa_5k.txt
-          vocab_file: inforgraphicvqa/defaults/extras/vocabs/answer_vocab_infographic.txt
+          vocab_file: vi_infographicvqa/defaults/vocabs/answer_vocab_ViInfographicVQA.txt # Create vocab 
           preprocessor:
             type: simple_word
             params: {}
@@ -45,7 +45,7 @@ dataset_config:
           max_length: 50
           max_copy_steps: 12
           # num_answers: 10 # max number ans of TextVQA
-          num_answers: 12 # max number answer # train set
+          num_answers: 10 # max number answer # train set
           # num_answers: 12 # max number answer # valid set
       copy_processor:
         type: copy
@@ -59,7 +59,8 @@ dataset_config:
         type: fasttext
         params:
           max_length: 50
-          model_file: wiki.en.bin
+          model_file: wiki.en.bin # able to add model for VietNamese
+          # model_file: wiki.vi.bin
       ocr_token_processor:
         type: simple_word
         params: {}
@@ -100,5 +101,5 @@ training:
     num_workers: 4
     task_size_proportional_sampling: true
     early_stop:
-      criteria: inforgraphicvqa/textvqa_accuracy
+      criteria: vi_infographicvqa/textvqa_accuracy #need to change. 
       minimize: false

@@ -6,15 +6,25 @@ import cv2
 import numpy as np
 import tqdm
 import random
+import  sys
+sys.path.append("./")
+from utils.get_dic_question_id import create_dic_question_id
 
 ERROR_IMGS = ['20467.jpeg']
-MAX_NUM_ANS = 12
+MAX_NUM_ANS = 10
+DICT_QID = {}
 
 def gen_infor_dataset(data):
+    if 'dataset_split' in data.keys():
+        dataset_type = data['dataset_split']
+    elif 'data_split' in data.keys():
+        dataset_type = data['data_split']
+    else:
+        raise Exception("You need to add data split ( train/test/val)")
     result={
         "creation_time": time.time(),
         "version": data['dataset_version'],
-        "dataset_type": data['dataset_split'],
+        "dataset_type":dataset_type,
         "has_answer": True
     }
     return result 
@@ -90,12 +100,84 @@ def gen_max_answer(answers, max_num_answer):
             new_answers.append(random_answer)
     return new_answers
 
+def get_question(annot, image_id, set_name):
+    question = annot['question']
+    question_id = annot['questionId']
+    if type(question_id) == str :
+        question_id = DICT_QID[question_id]
+    question_tokens = question.strip("?").split()
+    return question, question_id, question_tokens
+
+def create_new_annotation(question, image_id, image_classes, image_url, img_width, img_height,
+                          question_tokens, question_id, set_name, image_name, img_path, feature_path,
+                         ocr_tokens, ocr_info, ocr_normalized_boxes, obj_normalized_boxes ):
+    new_annotation={ 
+    'question': question,
+    'image_id': image_id,
+    "image_classes": image_classes,
+    "image_url": image_url, 
+    "image_width": img_width,
+    "image_height": img_height,
+    "question_tokens": question_tokens,
+    "question_id": question_id,
+    "set_name": set_name,
+    "image_name": image_name,
+    "image_path": img_path, 
+    "feature_path": feature_path,
+    "ocr_tokens": ocr_tokens, 
+    "ocr_info": ocr_info,
+    "ocr_normalized_boxes": ocr_normalized_boxes, 
+    "obj_normalized_boxes": obj_normalized_boxes
+            }
+    return new_annotation
+
+def create_save_path(sub_num, set_name, k, distance, output):
+    if sub_num == 1:
+        # file_name = "infoVQA_{}_en.npy".format(set_name) # infographicVQA
+        file_name = "infoVQA_{}_vi.npy".format(set_name) #ViInfographicVQA
+    else:
+        # file_name = "infoVQA_{}_en_{}.npy".format(set_name, str(k/distance)) # infographicVQA
+        file_name = "infoVQA_{}_vi_{}.npy".format(set_name, str(k/distance)) #ViInfographicVQA
+    output_path = os.path.join(output, file_name)
+    return output_path
+
+def add_answer(set_name, new_annotation, annot ):
+    if set_name != 'test':
+        # print('before ', annot['answers'] )
+        answers = gen_max_answer(annot['answers'], MAX_NUM_ANS)
+        new_annotation['answers'] = answers
+        # print('after ', answers )
+        new_annotation['valid_answers'] = answers
+    # print('new annotation: ', new_annotation)
+    return new_annotation
+
+def get_img_name(annot):
+    if "image_local_name" in annot.keys():
+        image_name = annot['image_local_name']
+    else:
+        image_name = annot['image'].split("/")[-1]
+    return image_name
+
+def get_img_folder(json_path):
+    if 'VietInfographicVQA' in json_path:
+        pre_path = json_path.split('VietInfographicVQA')[0]
+        img_folder = os.path.join(pre_path, "documents")
+    elif 'infographicVQA' in json_path:
+        img_folder = json_path.replace(".json", "_images")
+    else:
+        raise Exception("Annotation file {} is not allow".format(json_path))
+    if not os.path.isdir(img_folder):
+        raise Exception("Don't have image folder {}".format(img_folder))
+    return img_folder
+    
+
 
 def repair_textVQA_format(bboxes_folder, json_path, ocr_results_path, sub_num, output ):
     set_name = None
     annot_fi = open(json_path, )
     origin_annotation = json.load(annot_fi)
     m_annots_data = origin_annotation['data']
+    set_name = origin_annotation['data_split']
     # print("annot data:", len(annots_data))
     num_file = len(m_annots_data)
     distance = num_file//sub_num
@@ -108,66 +190,40 @@ def repair_textVQA_format(bboxes_folder, json_path, ocr_results_path, sub_num, o
     # print("info dataset", info_dataset)
         for i, annot in enumerate(annots_data):
             # print(annot.keys())
-            # print(annot)
-            #get info 
-            ## question 
-            question = annot['question']
-            question_id = annot['questionId']
-            question_tokens = question.strip("?").split()
             ## image 
-            image_name = annot['image_local_name']
+            image_name = get_img_name(annot)
             print("Phrase {}/ {} processing [{}/{}]: {}".format(k/distance + 1,sub_num, i, distance, image_name))
             if image_name  in ERROR_IMGS:
                 print("Skiped image:==================================== ", image_name)
                 continue
-            image_id = image_name.replace(".jpeg", "")
+            image_id = image_name.split(".")[0]
+            question, question_id, question_tokens = get_question(annot, image_id, set_name)
             image_classes = []
             image_url = annot['image_url']
-            img_path= os.path.join(json_path.replace(".json", "_images"), image_name)
+            img_folder = get_img_folder(json_path)
+            img_path= os.path.join(img_folder, image_name)
             img = cv2.imread(img_path)
             img_height, img_width, channels = img.shape
-            set_name = annot['data_split']
-
             ## ocr 
             ocr_tokens, ocr_info, ocr_normalized_boxes =get_info_ocr_result(ocr_results_path, image_id)
-            ## another 
+            if ocr_normalized_boxes == []:
+                print("Don't have ocr results ----> skip")
+                continue
             feature_path = os.path.join(bboxes_folder, image_id + '_info.npy' )
+            # feature_path = os.path.join(bboxes_folder, image_id + '.npy' )
             # print('feature_path: ', feature_path)
             obj_normalized_boxes = get_obj_normalized_bboxes(feature_path)
             # feature_path = feature_path.split("/")[-1]
-            new_annotation={
-                'question': question,
-                'image_id': image_id,
-                "image_classes": image_classes,
-                "image_url": image_url, 
-                "image_width": img_width,
-                "image_height": img_height,
-                "question_tokens": question_tokens,
-                "question_id": question_id,
-                "set_name": set_name,
-                "image_name": image_name,
-                "image_path": img_path, 
-                "feature_path": feature_path,
-                "ocr_tokens": ocr_tokens, 
-                "ocr_info": ocr_info,
-                "ocr_normalized_boxes": ocr_normalized_boxes, 
-                "obj_normalized_boxes": obj_normalized_boxes
-            }
-            ## answers
-            if set_name != 'test':
-                # print('before ', annot['answers'] )
-                answers = gen_max_answer(annot['answers'], MAX_NUM_ANS)
-                new_annotation['answers'] = answers
-                # print('after ', answers )
-                new_annotation['valid_answers'] = answers
+            ## Set some info for annotation
+            new_annotation = create_new_annotation(question, image_id, image_classes, image_url, img_width, img_height,
+                          question_tokens, question_id, set_name, image_name, img_path, feature_path,
+                         ocr_tokens, ocr_info, ocr_normalized_boxes, obj_normalized_boxes )
+            ## adding answers
+            add_answer(set_name, new_annotation, annot)
             # print('new annotation: ', new_annotation)
             annotation_result.append(new_annotation)
             # input("Continue")
-        if sub_num == 1:
-            file_name = "infoVQA_{}_en.npy".format(set_name)
-        else:
-            file_name = "infoVQA_{}_en_{}.npy".format(set_name, str(k/distance))
-        output_path = os.path.join(output, file_name)
+        output_path = create_save_path(sub_num, set_name, k, distance, output)
         save_annotation_results(annotation_result, output_path)
     annot_fi.close()
 
@@ -209,6 +265,8 @@ def get_parser():
     return parser.parse_args()
 
 if __name__ == "__main__":
+    path = "/mlcv/Databases/VN_InfographicVQA/change/VietInfographicVQA_change_v1.0.json"
+    DICT_QID = create_dic_question_id(path)
     args = get_parser()
     main(args)
 
