@@ -1,5 +1,5 @@
-LMDB_PATH="env_variable/data/datasets/inforgraphicvqa/ocr_en/features"
-FEATURES_PATH="env_variable/data/datasets/inforgraphicvqa/ocr_en/features"
+LMDB_PATH="env_variable/data/datasets/vi_infographicvqa/ocr_vi/features"
+FEATURES_PATH="env_variable/data/datasets/vi_infographicvqa/ocr_vi/features"
 
 python tools/scripts/features/lmdb_conversion.py \
     --mode="convert" \

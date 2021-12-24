@@ -25,3 +25,6 @@ No type answer
 {1: 1979, 2: 699, 3: 25, 4: 23, 5: 1, 6: 70, 12: 4} 
 
 => Tăng số lượng lên 12 đối với cái sl chia hết cho 12, các số không chia hết cho 12 là 5 và 8 sẽ xử lí riêng. 
+
+
+change clssifier /mlcv/WorkingSpace/NCKH/tiennv/vqa_thesis/docvqa/libs/mmf/mmf/modules/layers.py 

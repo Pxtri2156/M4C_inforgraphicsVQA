@@ -229,6 +229,7 @@ class FeatureExtractor:
         img_tensor, im_scales, im_infos = [], [], []
 
         for image_path in image_paths:
+            print('Processing img path: ', image_path)
             im, im_scale, im_info = self._image_transform(image_path)
             img_tensor.append(im)
             im_scales.append(im_scale)

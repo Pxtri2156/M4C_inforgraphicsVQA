@@ -10,18 +10,18 @@ dataset_config:
     - inforgraphicvqa.ocr_en
     features:
       train:
-      - inforgraphicvqa/defaults/features,inforgraphicvqa/ocr_en/features
+      - inforgraphicvqa/30_object/features,inforgraphicvqa/ocr_en/features
       val:
-      - inforgraphicvqa/defaults/features,inforgraphicvqa/ocr_en/features
+      - inforgraphicvqa/30_object/features,inforgraphicvqa/ocr_en/features
       test:
-      - inforgraphicvqa/defaults/features,inforgraphicvqa/ocr_en/features
+      - inforgraphicvqa/30_object/features,inforgraphicvqa/ocr_en/features
     annotations:
       train:
-      - inforgraphicvqa/defaults/annotations/infoVQA_train_en.npy 
+      - inforgraphicvqa/30_object/annotations/infoVQA_train_en.npy 
       val:
-      - inforgraphicvqa/defaults/annotations/infoVQA_val_en.npy   
+      - inforgraphicvqa/30_object/annotations/infoVQA_val_en.npy   
       test:
-      - inforgraphicvqa/defaults/annotations/infoVQA_test_en.npy   
+      - inforgraphicvqa/30_object/annotations/infoVQA_test_en.npy   
     processors:
       text_processor:
         type: bert_tokenizer
