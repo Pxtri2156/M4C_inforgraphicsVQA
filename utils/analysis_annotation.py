@@ -244,4 +244,7 @@ python utils/analysis_annotation.py \
 --annot="env_variable/data/datasets/vi_infographicvqa/defaults/annotations/infoVQA_train_vi.npy" \
 --option=0
 
+python utils/analysis_annotation.py \
+--annot="env_variable/data/datasets/vi_infographicvqa/20_object/annotations/infoVQA_val_vi.npy" \
+--option=0
 '''

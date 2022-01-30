@@ -5,7 +5,7 @@ import numpy as np
 import tqdm
 import sys
 sys.path.append('./')
-from utils.repair_annotation import get_obj_normalized_bboxes, save_annotation_results
+from utils.prepare_annotation import get_obj_normalized_bboxes, save_annotation_results
 
 def change_obj_bbox(annotations_path, obj_bbox_path, output):
     annotations = np.load(annotations_path, allow_pickle=True)
@@ -55,13 +55,10 @@ python utils/change_extrac_obj.py \
     --obj_bbox="env_variable/data/datasets/inforgraphicvqa/30_object/feature" \
     --output="env_variable/data/datasets/inforgraphicvqa/30_object/annotations/infoVQA_test_en.npy"
 
-python utils/change_extrac_obj.py \
-    --annotations="env_variable/data/datasets/inforgraphicvqa/defaults/annotations/infoVQA_train_en.npy" \
-    --obj_bbox="env_variable/data/datasets/inforgraphicvqa/30_object/feature" \
-    --output="env_variable/data/datasets/inforgraphicvqa/30_object/annotations/infoVQA_train_en.npy"
 
 python utils/change_extrac_obj.py \
-    --annotations="env_variable/data/datasets/inforgraphicvqa/defaults/annotations/infoVQA_val_en.npy" \
-    --obj_bbox="env_variable/data/datasets/inforgraphicvqa/30_object/feature" \
-    --output="env_variable/data/datasets/inforgraphicvqa/30_object/annotations/infoVQA_val_en.npy"
+    --annotations="env_variable/data/datasets/vi_infographicvqa/defaults/annotations/infoVQA_test_vi.npy" \
+    --obj_bbox="env_variable/data/datasets/vi_infographicvqa/100_object/features" \
+    --output="env_variable/data/datasets/vi_infographicvqa/100_object/annotations/infoVQA_test_vi.npy"
+ 
 '''

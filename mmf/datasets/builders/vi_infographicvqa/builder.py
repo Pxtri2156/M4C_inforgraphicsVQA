@@ -12,6 +12,7 @@ class ViInfographicVQABuilder(MMFDatasetBuilder):
 
     @classmethod
     def config_path(cls):
+        # print("hú")
         return "configs/datasets/vi_infographicvqa/defaults.yaml"
 
     # TODO: Deprecate this method and move configuration updates directly to processors

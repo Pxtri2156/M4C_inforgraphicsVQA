@@ -281,13 +281,13 @@ python utils/evaluate_VN.py \
 
 python utils/evaluate_VN.py \
     --ground_truth submission/ViInfographicVQA/gt/VietInfographicVQA_val_v1.0_converted.json \
-    --submission_file submission/ViInfographicVQA/submission_M4C_val_v1_VN.json \
+    --submission_file submission/ViInfographicVQA/converted/submission_M4C_val_v5_VN.json \
     --output result_evaluate
     
-python utils/evaluate_VN.py \
-    --ground_truth submission/ViInfographicVQA/gt/VietInfographicVQA_test_v1.0_converted.json \
-    --submission_file submission/ViInfographicVQA/submission_M4C_test_v1_VN.json \
-    --output result_evaluate
+    python utils/evaluate_VN.py \
+        --ground_truth submission/ViInfographicVQA/gt/VietInfographicVQA_test_v1.0_converted.json \
+        --submission_file submission/ViInfographicVQA/converted/submission_M4C_test_v5_VN.json \
+        --output result_evaluate
     
     
 '''

@@ -46,7 +46,7 @@ def convert_format_submissionVN(input_path, output_path):
     out_fi.close()
     
 def main(args):
-    convert_format_submission(args.input_path, args.output_path)
+    convert_format_submissionVN(args.input_path, args.output_path)
 
 def get_parser():
     parser = argparse.ArgumentParser()
@@ -81,11 +81,25 @@ python utils/convert_format_evaluation.py \
     --output_path="/mlcv/WorkingSpace/NCKH/tiennv/vqa_thesis/docvqa/libs/mmf/submission/ViInfographicVQA/submission_M4C_val_v0_VN.json"
 
 python utils/convert_format_evaluation.py \
-    --input_path="env_variable/report/vi_infographicVQA/config_v1/vi_infographicvqa_run_val_2021-12-24T13:39:40.json" \
-    --output_path="submission/ViInfographicVQA/submission_M4C_val_v1_VN.json"
+    --input_path="env_variable/report/vi_infographicVQA/config_v2/vi_infographicvqa_run_test_2021-12-25T02:26:08.json" \
+    --output_path="submission/ViInfographicVQA/submission_M4C_test_v2_VN.json"
 
 python utils/convert_format_evaluation.py \
-    --input_path="env_variable/report/vi_infographicVQA/config_v1/vi_infographicvqa_run_test_2021-12-24T13:44:04.json" \
-    --output_path="submission/ViInfographicVQA/submission_M4C_test_v1_VN.json"
+    --input_path="env_variable/report/vi_infographicVQA/config_v2/vi_infographicvqa_run_val_2021-12-25T02:16:20.json" \
+    --output_path="submission/ViInfographicVQA/submission_M4C_val_v2_VN.json"
 
+python utils/convert_format_evaluation.py \
+    --input_path="env_variable/report/inforgraphicVQA/config_v0/inforgraphicvqa_run_val_2021-09-29T16:25:54.json" \
+    --output_path="submission/infographicVQA/submission_M4C_val_v0.json"
+
+
+python utils/convert_format_evaluation.py \
+    --input_path="/mlcv/WorkingSpace/NCKH/tiennv/vqa_thesis/docvqa/libs/mmf/env_variable/report/vi_infographicVQA/config_v2/vi_infographicvqa_run_test_2021-12-25T02:26:08.json" \
+    --output_path="submission/ViInfographicVQA/normal/submission_M4C_test_v2_VN.json"
+
+
+python utils/convert_format_evaluation.py \
+    --input_path="/mlcv/WorkingSpace/NCKH/tiennv/vqa_thesis/docvqa/libs/mmf/env_variable/report/vi_infographicVQA/config_v5/vi_infographicvqa_run_val_2021-12-30T13:51:50.json" \
+    --output_path="submission/ViInfographicVQA/normal/submission_M4C_val_v5_VN.json"
+    
 '''
