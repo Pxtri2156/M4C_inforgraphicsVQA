@@ -31,7 +31,7 @@ class ViInfographicVQADataset(MMFDataset):
 
             sample_info["feature_path"] = feature_path
             return sample_info
-        elif 'inforgraphicvqa' in path:
+        elif 'vi_infographicvqa' in path:
             # print("{}".format("="*200))
             sample_info['feature_path'] = sample_info['feature_path'].split('/')[-1].replace("_info.npy", '.npy')
             # print('feature path: ', sample_info["feature_path"])
@@ -44,7 +44,7 @@ class ViInfographicVQADataset(MMFDataset):
             # )
             # lklk
             sample_info["feature_path"] = sample_info["image_path"].replace(
-                ".jpeg", ".npy"
+                ".png", ".npy"
             )
         return sample_info
 
